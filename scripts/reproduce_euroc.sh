@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail
-ws="$(cd "$(dirname "$0")/.." && pwd)"
+source "$(dirname "$0")/common.sh"
+ws="$SUPERVINS_WS"
 cd "$ws"
 [[ -s data/V2_01_easy.bag ]] || { echo 'First run scripts/download_euroc.sh and scripts/prepare_euroc.sh.' >&2; exit 1; }
 [[ -s src/SuperVINS/supervins_loop_fusion/src/ThirdParty/Voc/superpoint1.yml.gz ]] || { echo 'First extract demo crops and run scripts/train_vocabulary.sh.' >&2; exit 1; }

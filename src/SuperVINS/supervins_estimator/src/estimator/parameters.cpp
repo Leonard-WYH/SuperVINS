@@ -8,6 +8,7 @@
  *******************************************************/
 
 #include "parameters.h"
+#include "path_utils.h"
 
 double INIT_DEPTH;
 double MIN_PARALLAX;
@@ -73,6 +74,7 @@ T readParam(ros::NodeHandle &n, std::string name)
 
 void readParameters(std::string config_file)
 {
+    config_file = supervins_paths::absolute(config_file);
     FILE *fh = fopen(config_file.c_str(), "r");
     if (fh == NULL)
     {
@@ -117,6 +119,9 @@ void readParameters(std::string config_file)
     MIN_PARALLAX = MIN_PARALLAX / FOCAL_LENGTH;
 
     fsSettings["output_path"] >> OUTPUT_FOLDER;
+    OUTPUT_FOLDER = supervins_paths::resolve(config_file, OUTPUT_FOLDER);
+    supervins_paths::makeDirectory(OUTPUT_FOLDER);
+    supervins_paths::makeDirectory(OUTPUT_FOLDER + "/time_consumption");
     VINS_RESULT_PATH = OUTPUT_FOLDER + "/vio.csv";
     std::cout << "result path " << VINS_RESULT_PATH << std::endl;
     std::ofstream fout(VINS_RESULT_PATH, std::ios::out);
@@ -157,12 +162,9 @@ void readParameters(std::string config_file)
         assert(0);
     }
 
-    int pn = config_file.find_last_of('/');
-    std::string configPath = config_file.substr(0, pn);
-
     std::string cam0Calib;
     fsSettings["cam0_calib"] >> cam0Calib;
-    std::string cam0Path = configPath + "/" + cam0Calib;
+    std::string cam0Path = supervins_paths::resolve(config_file, cam0Calib);
     CAM_NAMES.push_back(cam0Path);
 
     if (NUM_OF_CAM == 2)
@@ -170,7 +172,7 @@ void readParameters(std::string config_file)
         STEREO = 1;
         std::string cam1Calib;
         fsSettings["cam1_calib"] >> cam1Calib;
-        std::string cam1Path = configPath + "/" + cam1Calib;
+        std::string cam1Path = supervins_paths::resolve(config_file, cam1Calib);
         // printf("%s cam1 path\n", cam1Path.c_str() );
         CAM_NAMES.push_back(cam1Path);
 
@@ -207,6 +209,8 @@ void readParameters(std::string config_file)
     // new codes to read deep-learning parameters
     fsSettings["extractor_weight_path"] >> extractor_weight_relative_path;
     fsSettings["matcher_weight_path"] >> matcher_weight_relative_path;
+    extractor_weight_global_path = supervins_paths::resolve(config_file, extractor_weight_relative_path);
+    matcher_weight_global_path = supervins_paths::resolve(config_file, matcher_weight_relative_path);
     MATCHER_THRESHOLD = fsSettings["matche_score_threshold"];
     ransacReprojThreshold= fsSettings["ransacReprojThreshold"];
 

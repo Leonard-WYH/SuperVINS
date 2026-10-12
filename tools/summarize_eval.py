@@ -1,5 +1,7 @@
 import json,pathlib,sys,zipfile,numpy as np
-run=pathlib.Path(sys.argv[1]);result={}
+run=pathlib.Path(sys.argv[1]);
+if not run.is_absolute():run=pathlib.Path(__file__).resolve().parents[1]/run
+result={}
 for name in ['vio','loop','pose_graph','vio_keyframes']:
  with zipfile.ZipFile(run/'evaluation'/f'{name}_ape.zip') as z:
   result[name]={'stats':json.loads(z.read('stats.json')),'info':json.loads(z.read('info.json'))}
@@ -44,7 +46,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 fig,ax=plt.subplots(figsize=(8,6))
-gt=file_interface.read_tum_trajectory_file(str(run.parents[1]/'data/groundtruth_tum.txt'))
+truth=pathlib.Path(sys.argv[2]) if len(sys.argv)>2 else pathlib.Path('data/groundtruth_tum.txt')
+if not truth.is_absolute():truth=pathlib.Path(__file__).resolve().parents[1]/truth
+gt=file_interface.read_tum_trajectory_file(str(truth))
 ax.plot(gt.positions_xyz[:,0],gt.positions_xyz[:,1],color='black',lw=2,label='EuRoC ground truth')
 for name,color in [('vio','green'),('loop','darkorange'),('pose_graph','red')]:
  t=file_interface.read_tum_trajectory_file(str(run/'evaluation'/f'{name}_aligned.tum'));ax.plot(t.positions_xyz[:,0],t.positions_xyz[:,1],color=color,lw=1.2,label=name)

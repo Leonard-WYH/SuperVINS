@@ -112,8 +112,6 @@ void Estimator::setParameter()
     cout << "set g " << g.transpose() << endl;
     featureTracker.readIntrinsicParameter(CAM_NAMES);
     // new codes: initialize deep learning extractor and matcher
-    //  string extractorDPL_path = "/home/lhk/catkin_ws/src/VINS-Fusion-LightGlue/vins_estimator/weights_dpl/superpoint.onnx";
-    //  string matcherDPL_path = "/home/lhk/catkin_ws/src/VINS-Fusion-LightGlue/vins_estimator/weights_dpl/superpoint_lightglue_fused_cpu.onnx";
     featureTracker.initializeExtractorMatcher(0, extractor_weight_global_path, matcher_weight_global_path, MATCHER_THRESHOLD); // initialize deep-learning based extractor and matcher
 
     std::cout << "MULTIPLE_THREAD is " << MULTIPLE_THREAD << '\n';
@@ -420,7 +418,7 @@ void Estimator::processMeasurements()
             // std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
 
             // 打开文件进行保存（以追加模式打开）
-            std::ofstream outFile("time_consumption/backend_optimization.txt", std::ios::app);
+            std::ofstream outFile(OUTPUT_FOLDER + "/time_consumption/backend_optimization.txt", std::ios::app);
             if (outFile.is_open()) {
                 outFile << duration.count() <<std::endl; // 写入执行时间
                 outFile.close(); // 关闭文件

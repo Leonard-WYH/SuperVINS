@@ -4,6 +4,7 @@ Explicit --download is required; metadata mode transfers only the ZIP directory.
 """
 import argparse,io,json,pathlib,struct,time,urllib.request,zipfile,zlib,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+(ROOT/'logs').mkdir(parents=True,exist_ok=True)
 URL='https://huggingface.co/datasets/GlowBond/EuRoC_MAV_Dataset/resolve/29d08aeb1c8d9dc5c30497cc538d9cc61f872bb7/vicon_room2.zip'
 TOTAL=6013384949
 p=argparse.ArgumentParser();p.add_argument('--download',action='store_true');a=p.parse_args()

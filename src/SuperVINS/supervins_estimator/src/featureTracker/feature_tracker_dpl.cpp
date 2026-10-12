@@ -563,7 +563,7 @@ map<int, vector<pair<int, Eigen::Matrix<double, 7, 1>>>> FeatureTrackerDPL::trac
     std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
 
     // 打开文件进行保存（以追加模式打开）
-    std::ofstream outFile("time_consumption/feature_extraction_matching.txt", std::ios::app);
+    std::ofstream outFile(OUTPUT_FOLDER + "/time_consumption/feature_extraction_matching.txt", std::ios::app);
     if (outFile.is_open()) {
         outFile << duration.count() << ","; // 写入执行时间
         outFile.close(); // 关闭文件
@@ -623,7 +623,7 @@ map<int, vector<pair<int, Eigen::Matrix<double, 7, 1>>>> FeatureTrackerDPL::trac
             // std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
 
             // 打开文件进行保存（以追加模式打开）
-            std::ofstream outFile("time_consumption/feature_extraction_matching.txt", std::ios::app);
+            std::ofstream outFile(OUTPUT_FOLDER + "/time_consumption/feature_extraction_matching.txt", std::ios::app);
             if (outFile.is_open()) {
                 outFile << duration.count() << std::endl;
                 outFile.close();
@@ -662,7 +662,7 @@ map<int, vector<pair<int, Eigen::Matrix<double, 7, 1>>>> FeatureTrackerDPL::trac
             std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
 
             // 打开文件进行保存（以追加模式打开）
-            std::ofstream outFile("duration.txt", std::ios::app);
+            std::ofstream outFile(OUTPUT_FOLDER + "/duration.txt", std::ios::app);
             if (outFile.is_open()) {
                 outFile << duration.count() <<std::endl; // 写入执行时间
                 outFile.close(); // 关闭文件

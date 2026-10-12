@@ -22,6 +22,7 @@ option(onnxruntime_USE_CUDA "Build with CUDA support" OFF)
 option(onnxruntime_USE_TENSORRT "Build with TensorRT support" OFF)
 option(LIBPNG_ROOTDIR "libpng root dir")
 include(${PROJECT_SOURCE_DIR}/../cmake/OnnxRuntime.cmake)
+include_directories("${PROJECT_SOURCE_DIR}/../common")
 
 find_package(JPEG)
 find_package(PNG)
@@ -71,8 +72,6 @@ add_executable(supervins_loop_fusion_node
     src/ThirdParty/DBoW3/src/timers.h
     ${DBOW3_SOURCE}
     )
-get_filename_component(PROJECT_SOURCE_DIR_ABS "${CMAKE_SOURCE_DIR}" ABSOLUTE)
-target_compile_definitions(supervins_loop_fusion_node PRIVATE PROJECT_SOURCE_DIR="${PROJECT_SOURCE_DIR_ABS}")
 target_link_libraries(supervins_loop_fusion_node ${catkin_LIBRARIES} ${OpenCV_LIBS} ${CERES_LIBRARIES} ${ONNXRUNTIME_LIBRARY})
 
 

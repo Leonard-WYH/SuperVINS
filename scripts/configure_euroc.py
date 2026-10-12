@@ -1,17 +1,49 @@
 #!/usr/bin/env python3
+"""Create a run-specific YAML whose resource paths are relative to that YAML."""
 from pathlib import Path
-import argparse,re,shutil
-ws=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser();p.add_argument('--output',type=Path,default=ws/'results/euroc');p.add_argument('--config',type=Path,default=ws/'config/euroc_mono_imu.yaml');a=p.parse_args()
-a.output=a.output.resolve();a.output.mkdir(parents=True,exist_ok=True);(a.output/'pose_graph').mkdir(exist_ok=True);a.config.parent.mkdir(parents=True,exist_ok=True)
-src=ws/'src/SuperVINS/config/euroc';s=(src/'euroc_mono_imu_config.yaml').read_text()
-for k,v in {'matche_score_threshold':'0.5','estimate_extrinsic':'0','estimate_td':'0','cam0_calib':'"cam0_euroc.yaml"','cam1_calib':'"cam1_euroc.yaml"','output_path':'"'+str(a.output)+'"','pose_graph_save_path':'"'+str(a.output/'pose_graph')+'"'}.items():s=re.sub(r'^'+k+r':.*$',k+': '+v,s,flags=re.M)
-a.config.write_text(s+'\n')
-for f in ['cam0_mei.yaml','cam1_mei.yaml']:shutil.copy2(src/f,a.config.parent/f)
-import yaml
-for name in ['cam0','cam1']:
- sensor=ws/'data/V2_01_easy/mav0'/name/'sensor.yaml'
- if not sensor.exists():raise RuntimeError('Dataset calibration missing: '+str(sensor))
- c=yaml.safe_load(sensor.read_text());fx,fy,cx,cy=c['intrinsics'];k1,k2,p1,p2=c['distortion_coefficients']
- (a.config.parent/(name+'_euroc.yaml')).write_text('%YAML:1.0\n---\nmodel_type: PINHOLE\ncamera_name: '+name+'\nimage_width: 752\nimage_height: 480\ndistortion_parameters:\n   k1: '+str(k1)+'\n   k2: '+str(k2)+'\n   p1: '+str(p1)+'\n   p2: '+str(p2)+'\nprojection_parameters:\n   fx: '+str(fx)+'\n   fy: '+str(fy)+'\n   cx: '+str(cx)+'\n   cy: '+str(cy)+'\n')
-print(a.config)
+import argparse
+import os
+import re
+import shutil
+
+ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument('--output', type=Path, default=Path('results/euroc'))
+parser.add_argument('--config', type=Path, default=Path('config/euroc_mono_imu.yaml'))
+args = parser.parse_args()
+
+def project_path(value):
+    return (value if value.is_absolute() else ROOT / value).resolve()
+
+args.output = project_path(args.output)
+args.config = project_path(args.config)
+args.output.mkdir(parents=True, exist_ok=True)
+(args.output / 'pose_graph').mkdir(exist_ok=True)
+args.config.parent.mkdir(parents=True, exist_ok=True)
+template = ROOT / 'config/euroc_mono_imu.yaml'
+text = template.read_text()
+
+def read_path(key):
+    match = re.search(r'^' + key + r':\s*["\']([^"\']+)["\']', text, re.M)
+    if not match:
+        raise RuntimeError('Missing path in configuration: ' + key)
+    return (template.parent / match.group(1)).resolve()
+
+updates = {}
+for key in ['cam0_calib', 'cam1_calib']:
+    source = read_path(key)
+    target = args.config.parent / source.name
+    if source != target:
+        shutil.copy2(source, target)
+    updates[key] = target.name
+for key in ['extractor_weight_path', 'matcher_weight_path', 'voc_relative_path', 'brief_pattern_path']:
+    source = read_path(key)
+    if not source.is_file():
+        raise RuntimeError('Resource missing: ' + str(source))
+    updates[key] = os.path.relpath(source, args.config.parent)
+updates['output_path'] = os.path.relpath(args.output, args.config.parent)
+updates['pose_graph_save_path'] = os.path.relpath(args.output / 'pose_graph', args.config.parent)
+for key, value in updates.items():
+    text = re.sub(r'^' + key + r':.*$', key + ': "' + value + '"', text, flags=re.M)
+args.config.write_text(text.rstrip() + '\n')
+print(args.config)

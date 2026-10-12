@@ -2,6 +2,7 @@
 import argparse,json,pathlib,re,collections
 import numpy as np
 p=argparse.ArgumentParser();p.add_argument('run',type=pathlib.Path);a=p.parse_args();report={}
+if not a.run.is_absolute():a.run=pathlib.Path(__file__).resolve().parents[1]/a.run
 for f in ['vio.csv','loop_corrected_tum.txt','vio_loop.csv']:
  x=np.loadtxt(a.run/f,comments='#');x=np.atleast_2d(x)
  if x.shape[1]!=8 or len(x)<10 or not np.isfinite(x).all():raise RuntimeError('Invalid TUM trajectory '+f)

@@ -3,6 +3,9 @@ import argparse,json,time,collections,pathlib
 import numpy as np
 import onnxruntime as ort
 p=argparse.ArgumentParser();p.add_argument('--root',default=str(pathlib.Path(__file__).resolve().parents[1]));p.add_argument('--legacy',action='store_true');p.add_argument('--input',type=pathlib.Path);p.add_argument('--report',default='onnx_smoke');a=p.parse_args();root=pathlib.Path(a.root)
+if not root.is_absolute():root=pathlib.Path(__file__).resolve().parents[1]/root
+if a.input is not None and not a.input.is_absolute():a.input=root/a.input
+(root/'results').mkdir(parents=True,exist_ok=True)
 print('ORT',ort.__version__,'available',ort.get_available_providers(),flush=True)
 weights=root/'src/SuperVINS/supervins_estimator/weights_dpl'
 profiles=[]

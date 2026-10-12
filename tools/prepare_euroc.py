@@ -5,6 +5,8 @@ import cv2,numpy as np,rosbag,rospy,yaml
 from sensor_msgs.msg import Image,Imu
 root=pathlib.Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('--dataset',type=pathlib.Path,default=root/'data/V2_01_easy');a=p.parse_args()
+if not a.dataset.is_absolute():a.dataset=root/a.dataset
+(root/'logs').mkdir(parents=True,exist_ok=True)
 imu_csv=next(a.dataset.rglob('imu0/data.csv'));mav=imu_csv.parent.parent
 out=root/'data/V2_01_easy.bag';meta={}
 def rows(path):

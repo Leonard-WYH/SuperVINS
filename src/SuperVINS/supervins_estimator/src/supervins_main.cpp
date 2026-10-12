@@ -271,9 +271,7 @@ int main(int argc, char **argv)
 
     if(argc != 2)
     {
-        printf("please intput: rosrun supervins supervins_node [config file] \n"
-               "for example: upervins supervins_node"
-               "~/catkin_ws/src/SuperVINS/config/euroc/euroc_mono_imu_config.yaml \n");
+        printf("usage: rosrun supervins supervins_node config/euroc_mono_imu.yaml\n");
         return 1;
     }
 
@@ -284,15 +282,7 @@ int main(int argc, char **argv)
     // parameters, including camera parameters, imu parameters, feature parameters, etc., into variables in the file parameters.cpp
     readParameters(config_file);
 
-    // 路径配置
-    // Path configuration
-    std::string project_source_dir = PROJECT_SOURCE_DIR;
-    extractor_weight_global_path = project_source_dir + "/" + extractor_weight_relative_path;
-    matcher_weight_global_path = project_source_dir + "/" + matcher_weight_relative_path;
-    // VINS_RESULT_PATH 已在 readParameters() 中由 OUTPUT_FOLDER(绝对路径) 拼好，
-    // 这里不能再次拼接 project_source_dir，否则会得到畸形路径导致 pose 无法保存。
-    // VINS_RESULT_PATH is already a complete absolute path built from OUTPUT_FOLDER
-    // in readParameters(); prepending project_source_dir again breaks the path.
+    // readParameters resolves all resources relative to the configuration file.
 
     //给estimator设置参数，因为一些参数可能被优化，所以可能会重置参数，注意，如果开启了多线程模式，在setParameter()中就已经将状态估计函数放入一个独立线程运行了
     //Set parameters for the estimator. Because some parameters may be optimized, the parameters may be reset. Note that if the multi-thread mode is turned on, the state estimation function has been put into an independent thread to run in set parameter().

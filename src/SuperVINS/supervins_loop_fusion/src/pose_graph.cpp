@@ -10,6 +10,7 @@
  *******************************************************/
 
 #include "pose_graph.h"
+#include "path_utils.h"
 
 PoseGraph::PoseGraph()
 {
@@ -126,7 +127,7 @@ void PoseGraph::addKeyFrame(KeyFrame *cur_kf, bool flag_detect_loop)
            // std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
 
            // 打开文件进行保存（以追加模式打开）
-           std::ofstream outFile("time_consumption/loop_frame_detection.txt", std::ios::app);
+           std::ofstream outFile(std::filesystem::path(VINS_RESULT_PATH).parent_path() / "time_consumption/loop_frame_detection.txt", std::ios::app);
            if (outFile.is_open()) {
                outFile << duration.count() << std::endl; // 写入执行时间
                outFile.close(); // 关闭文件

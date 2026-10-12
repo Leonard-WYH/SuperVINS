@@ -22,6 +22,7 @@
 #include <iostream>
 #include <fstream>
 #include <ros/package.h>
+#include "path_utils.h"
 #include <mutex>
 #include <queue>
 #include <thread>
@@ -62,7 +63,6 @@ int ROW;
 int COL;
 int DEBUG_IMAGE;
 
-string LOOP_PROJECT_SOURCE_DIR;
 
 // LightGlue loop matcher global pointer
 Matcher_DPL* g_loop_matcher = nullptr;
@@ -597,13 +597,11 @@ int main(int argc, char **argv)
 
     if (argc != 2)
     {
-        printf("please intput: rosrun supervins_loop_fusion supervins_loop_fusion_node [config file] \n"
-               "for example: rosrun supervins_loop_fusion supervins_loop_fusion_node "
-               "/home/tony-ws1/catkin_ws/src/SuperVINS/config/euroc/euroc_stereo_imu_config.yaml \n");
+        printf("usage: rosrun supervins_loop_fusion supervins_loop_fusion_node config/euroc_mono_imu.yaml\n");
         return 0;
     }
 
-    string config_file = argv[1];
+    string config_file = supervins_paths::absolute(argv[1]);
     printf("config_file: %s\n", argv[1]);
 
     cv::FileStorage fsSettings(config_file, cv::FileStorage::READ);
@@ -624,10 +622,9 @@ int main(int argc, char **argv)
 
     // 路径配置
     // Path configuration
-    LOOP_PROJECT_SOURCE_DIR= PROJECT_SOURCE_DIR;
     string voc_relative_path=fsSettings["voc_relative_path"];
     
-    string vocabulary_file = LOOP_PROJECT_SOURCE_DIR + "/" + voc_relative_path;
+    string vocabulary_file = supervins_paths::resolve(config_file, voc_relative_path);
     cout << "vocabulary_file" << vocabulary_file << endl;
     
     // 此处加载训练好的词袋模型
@@ -643,7 +640,7 @@ int main(int argc, char **argv)
         loop_match_threshold = (float)fsSettings["matche_score_threshold"];
     if (!matcher_weight_relative_path.empty())
     {
-        std::string matcher_weight_path = LOOP_PROJECT_SOURCE_DIR + "/" + matcher_weight_relative_path;
+        std::string matcher_weight_path = supervins_paths::resolve(config_file, matcher_weight_relative_path);
         posegraph.initLightGlueMatcher(matcher_weight_path, loop_match_threshold);
         g_loop_matcher = posegraph.loop_matcher.get();
         printf("[LoopFusion] LightGlue matcher loaded: %s (threshold=%.2f)\n", matcher_weight_path.c_str(), loop_match_threshold);
@@ -653,24 +650,27 @@ int main(int argc, char **argv)
         printf("[LoopFusion] WARNING: matcher_weight_path not set, falling back to BRIEF matching\n");
     }
 
-    BRIEF_PATTERN_FILE = pkg_path + "/../support_files/brief_pattern.yml";
+    std::string brief_pattern_path;
+    fsSettings["brief_pattern_path"] >> brief_pattern_path;
+    BRIEF_PATTERN_FILE = brief_pattern_path.empty()
+        ? (std::filesystem::path(pkg_path).parent_path() / "support_files/brief_pattern.yml").string()
+        : supervins_paths::resolve(config_file, brief_pattern_path);
     cout << "BRIEF_PATTERN_FILE" << BRIEF_PATTERN_FILE << endl;
 
-    int pn = config_file.find_last_of('/');
-    std::string configPath = config_file.substr(0, pn);
     std::string cam0Calib;
     fsSettings["cam0_calib"] >> cam0Calib;
-    std::string cam0Path = configPath + "/" + cam0Calib;
+    std::string cam0Path = supervins_paths::resolve(config_file, cam0Calib);
     printf("cam calib path: %s\n", cam0Path.c_str());
     m_camera = camodocal::CameraFactory::instance()->generateCameraFromYamlFile(cam0Path.c_str());
 
     fsSettings["image0_topic"] >> IMAGE_TOPIC;
     fsSettings["pose_graph_save_path"] >> POSE_GRAPH_SAVE_PATH;
-    if (!POSE_GRAPH_SAVE_PATH.empty() && POSE_GRAPH_SAVE_PATH.front() != '/')
-        POSE_GRAPH_SAVE_PATH=LOOP_PROJECT_SOURCE_DIR + "/" + POSE_GRAPH_SAVE_PATH;
+    POSE_GRAPH_SAVE_PATH = supervins_paths::resolve(config_file, POSE_GRAPH_SAVE_PATH);
+    supervins_paths::makeDirectory(POSE_GRAPH_SAVE_PATH);
     fsSettings["output_path"] >> VINS_RESULT_PATH;
-    if (!VINS_RESULT_PATH.empty() && VINS_RESULT_PATH.front() != '/')
-        VINS_RESULT_PATH=LOOP_PROJECT_SOURCE_DIR + "/" + VINS_RESULT_PATH;
+    VINS_RESULT_PATH = supervins_paths::resolve(config_file, VINS_RESULT_PATH);
+    supervins_paths::makeDirectory(VINS_RESULT_PATH);
+    supervins_paths::makeDirectory(VINS_RESULT_PATH + "/time_consumption");
     fsSettings["save_image"] >> DEBUG_IMAGE;
 
     LOAD_PREVIOUS_POSE_GRAPH = fsSettings["load_previous_pose_graph"];
@@ -682,8 +682,7 @@ int main(int argc, char **argv)
     // Setup per-frame loop-corrected pose output file (TUM format for EVO evaluation)
     std::string output_path_str;
     fsSettings["output_path"] >> output_path_str;
-    if (!output_path_str.empty() && output_path_str.front() != '/')
-        output_path_str = LOOP_PROJECT_SOURCE_DIR + "/" + output_path_str;
+    output_path_str = supervins_paths::resolve(config_file, output_path_str);
     LOOP_CORRECTED_PATH_FILE = output_path_str + "/loop_corrected_tum.txt";
     {
         std::ofstream fout_lc(LOOP_CORRECTED_PATH_FILE, std::ios::out);

@@ -27,5 +27,3 @@
 /results/superpoint_*.json
 /results/superpoint_lightglue_fused_*.json
 /results/*_matches.npz
-# Local configuration is generated for each run
-/config/euroc_mono_imu.yaml

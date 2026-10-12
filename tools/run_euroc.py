@@ -3,6 +3,7 @@ import argparse,collections,csv,json,math,os,pathlib,signal,socket,subprocess,ti
 import psutil
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('--bag',type=pathlib.Path,default=ROOT/'data/V2_01_easy.bag');p.add_argument('--rate',type=float,default=1);p.add_argument('--duration',type=float);p.add_argument('--no-rviz',action='store_true');p.add_argument('--startup-only',action='store_true');a=p.parse_args()
+if not a.bag.is_absolute():a.bag=ROOT/a.bag
 if not a.startup_only and not a.bag.exists():raise RuntimeError('Missing EuRoC bag')
 uri=os.environ['ROS_MASTER_URI'];port=int(uri.rsplit(':',1)[1]);probe=socket.socket()
 if probe.connect_ex(('127.0.0.1',port))==0:raise RuntimeError('Master port already occupied; refusing to change existing ROS session')

@@ -1,2 +1,4 @@
-cd data/
-wget http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/vicon_room2/V2_01_easy/V2_01_easy.bag
+#!/usr/bin/env bash
+set -eo pipefail
+ws="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd -P)"
+exec "$ws/scripts/download_euroc.sh" "$@"
