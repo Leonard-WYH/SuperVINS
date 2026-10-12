@@ -2,6 +2,12 @@
 
 ROS1 视觉惯性 SLAM：SuperPoint 特征提取、LightGlue 匹配、VIO、回环检测、位姿图优化与 RViz 可视化。
 
+## RViz 演示
+
+EuRoC V2_01_easy 本机运行实录（15 秒），展示特征跟踪、VIO 轨迹、回环匹配及回环连线。点击动态预览可观看或下载 MP4。
+
+[![RViz 运行演示](assets/rviz-demo.gif)](assets/rviz-demo.mp4?raw=true)
+
 ## 环境要求
 
 | 依赖 | 版本要求 |
