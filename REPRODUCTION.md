@@ -8,7 +8,7 @@
 
 这次完成的是系统功能复现，**并非作者论文实验的逐项等价复现**：官方仓库没有发布所需 SuperPoint 词袋，本次使用独立于 V2_01_easy 的官方演示视频画面自训练词袋；运行配置固定了已知外参与时间偏移，并使用数据集实际相机标定。原始 VINS-Fusion 对比和 D435i 真机运行没有执行。
 
-最终结果：[`results/latest`](results/latest)，实际目录为 `results/V2_01_easy_20261012_151641`。此前成功运行也完整保存在 `results/V2_01_easy_20261012_151208`。失败的第一轮保存在 `results/V2_01_easy_20261012_150931`，不能作为成功结果。
+最终结果：[`results/latest`](results/V2_01_easy_20261012_151641)，实际目录为 `results/V2_01_easy_20261012_151641`。此前成功运行也完整保存在 `results/V2_01_easy_20261012_151208`。失败的第一轮保存在 `results/V2_01_easy_20261012_150931`，不能作为成功结果。
 
 ## 1. 环境版本与 GPU
 
@@ -236,7 +236,7 @@ Ceres 上游限制 max_num_iterations=5；最终 6 次求解中 1 次 CONVERGENC
 | 橙色密集修正 | /supervins_loop_fusion/loop_corrected_path |
 | 红色位姿图关键帧 | /supervins_loop_fusion/pose_graph_path |
 
-RViz 实际窗口截图：[`results/latest/rviz_final.png`](results/latest/rviz_final.png)。轨迹对齐图：[`results/latest/evaluation/trajectories_xy.png`](results/latest/evaluation/trajectories_xy.png)；EVO PDF 见同目录。截图来自真实运行窗口，不是生成示意图。
+RViz 实际窗口截图：[`results/latest/rviz_final.png`](results/V2_01_easy_20261012_151641/rviz_final.png)。轨迹对齐图：[`results/latest/evaluation/trajectories_xy.png`](results/V2_01_easy_20261012_151641/evaluation/trajectories_xy.png)；EVO PDF 见同目录。截图来自真实运行窗口，不是生成示意图。
 
 ## 8. EVO 定量结果与资源
 
@@ -268,7 +268,7 @@ EVO 1.29.0：translation APE，单位 m，SE(3) Umeyama 对齐，**没有 scale 
 
 整卡平均 GPU 利用率 41.97%，峰值显存 5,341 MiB，平均功耗 91.47 W；包含桌面和其他应用，不能当作 SuperVINS 单独占用。nvidia-smi compute-process 记录中 VIO 峰值 1,282 MiB，Loop Fusion 峰值 444 MiB；RViz/桌面图形显存未由这项 compute-process 查询完整统计。
 
-完整数据：[`results/latest/evaluation/summary.json`](results/latest/evaluation/summary.json)、`resources.json`。所有 ATE 数值直接来自 EVO 的 `*_ape.zip` / `*_ape.log`；每个对齐矩阵保存在 summary.json，完整对齐 TUM 为 `*_aligned.tum`。不同轨迹关联数量不同，故另提供相同关键帧 VIO 基线作可比评测。
+完整数据：[`results/latest/evaluation/summary.json`](results/V2_01_easy_20261012_151641/evaluation/summary.json)、`resources.json`。所有 ATE 数值直接来自 EVO 的 `*_ape.zip` / `*_ape.log`；每个对齐矩阵保存在 summary.json，完整对齐 TUM 为 `*_aligned.tum`。不同轨迹关联数量不同，故另提供相同关键帧 VIO 基线作可比评测。
 
 ## 9. D435i 真机适配准备（尚未实际运行）
 

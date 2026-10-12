@@ -12,6 +12,8 @@
 
 原仓库未提供所需词袋，本仓库包含自训练 SuperPoint 词袋，因此不是论文实验的严格等价复现。上游密集修正轨迹只应用统一刚体变换，对齐后 ATE 与 VIO 相同；最终轮关键帧优化未改善精度。详细配置、失败排查、两轮结果和 D435i 适配准备见 [REPRODUCTION.md](REPRODUCTION.md)。
 
+[轨迹对齐图](results/V2_01_easy_20261012_151641/evaluation/trajectories_xy.png) · [RViz 截图](results/V2_01_easy_20261012_151641/rviz_final.png)
+
 ## 快速运行
 
 先安装 ROS Noetic、OpenCV/Eigen、Ceres 2.1，以及与 GPU 兼容的 CUDA/cuDNN。准备已有 ONNX Runtime GPU **1.23.2** 库和 Python 3.10，然后执行：
