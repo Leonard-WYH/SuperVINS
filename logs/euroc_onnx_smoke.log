@@ -1,0 +1,70 @@
+ORT 1.23.2 available ['TensorrtExecutionProvider', 'CUDAExecutionProvider', 'CPUExecutionProvider']
+[0;93m2026-10-12 15:13:24.271933758 [W:onnxruntime:, transformer_memcpy.cc:111 ApplyImpl] 4 Memcpy nodes are added to the graph main_graph for CUDAExecutionProvider. It might have negative impact on performance (including unable to run CUDA graph). Set session_options.log_severity_level=1 to see the detail logs before this message.[m
+[0;93m2026-10-12 15:13:24.272640479 [W:onnxruntime:, session_state.cc:1316 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+[0;93m2026-10-12 15:13:24.272646258 [W:onnxruntime:, session_state.cc:1318 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+[0;93m2026-10-12 15:13:24.291056483 [W:onnxruntime:Default, scatter_nd.h:51 ScatterNDWithAtomicReduction] ScatterND with reduction=='none' only guarantees to be correct if indices are not duplicated.[m
+[0;93m2026-10-12 15:13:24.291082243 [W:onnxruntime:Default, scatter_nd.h:51 ScatterNDWithAtomicReduction] ScatterND with reduction=='none' only guarantees to be correct if indices are not duplicated.[m
+[0;93m2026-10-12 15:13:24.291088064 [W:onnxruntime:Default, scatter_nd.h:51 ScatterNDWithAtomicReduction] ScatterND with reduction=='none' only guarantees to be correct if indices are not duplicated.[m
+[0;93m2026-10-12 15:13:24.291095060 [W:onnxruntime:Default, scatter_nd.h:51 ScatterNDWithAtomicReduction] ScatterND with reduction=='none' only guarantees to be correct if indices are not duplicated.[m
+superpoint providers ['CUDAExecutionProvider', 'CPUExecutionProvider']
+inputs [('image', [1, 1, 'height', 'width'], 'tensor(float)')]
+outputs [('keypoints', [1, 'NonZero_362_o0__d1', 2], 'tensor(int64)'), ('scores', [1, 'NonZero_362_o0__d1'], 'tensor(float)'), ('descriptors', [1, 'NonZero_362_o0__d1', 256], 'tensor(float)')]
+[0;93m2026-10-12 15:13:24.295611857 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv1a/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.459289883 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv1b/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.474853643 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv2a/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.479196620 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv2b/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.482832543 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv3a/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.486349235 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv3b/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.489665849 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv4a/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.492862106 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/conv4b/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.496241843 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/convPa/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.499921753 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/convPb/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.720369014 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/convDa/Conv) running in Fallback mode. May be extremely slow.[m
+[0;93m2026-10-12 15:13:24.725141576 [W:onnxruntime:Default, conv.cc:425 UpdateState] OP Conv(/convDb/Conv) running in Fallback mode. May be extremely slow.[m
+SP [((1, 542, 2), 'int64'), ((1, 542), 'float32'), ((1, 542, 256), 'float32')]
+SP [((1, 549, 2), 'int64'), ((1, 549), 'float32'), ((1, 549, 256), 'float32')]
+[0;93m2026-10-12 15:13:24.851560777 [W:onnxruntime:, session_state.cc:1316 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+[0;93m2026-10-12 15:13:24.851592759 [W:onnxruntime:, session_state.cc:1318 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+superpoint_lightglue_fused providers ['CUDAExecutionProvider', 'CPUExecutionProvider']
+inputs [('kpts0', [1, 'num_keypoints0', 2], 'tensor(float)'), ('kpts1', [1, 'num_keypoints1', 2], 'tensor(float)'), ('desc0', [1, 'num_keypoints0', 256], 'tensor(float)'), ('desc1', [1, 'num_keypoints1', 256], 'tensor(float)')]
+outputs [('matches0', ['NonZero_1323_o0__d1', 2], 'tensor(int64)'), ('mscores0', ['NonZero_1323_o0__d1'], 'tensor(float)')]
+LG [((404, 2), 'int64'), ((404,), 'float32')]
+{
+  "ort_version": "1.23.2",
+  "input": "results/euroc_smoke_input.npy plus 6-pixel horizontal roll; diagnostic only",
+  "sp_keypoints": [
+    542,
+    549
+  ],
+  "sp_ms": [
+    440.5034720002732,
+    4.997559000003093,
+    4.299088000152551,
+    4.437296000105562,
+    4.146068999943964,
+    4.071335000389809,
+    4.167539999798464,
+    7.1641380000073696
+  ],
+  "lg_matches": 404,
+  "lg_matches_above_0_5": 386,
+  "lg_ms": [
+    64.4669610001074,
+    13.946958999895287,
+    15.13459000034345,
+    8.795918000032543,
+    8.398762000069837,
+    8.590355000251293
+  ],
+  "finite": true,
+  "providers": {
+    "superpoint": {
+      "CUDAExecutionProvider": 1592,
+      "CPUExecutionProvider": 408
+    },
+    "superpoint_lightglue_fused": {
+      "CUDAExecutionProvider": 7200,
+      "CPUExecutionProvider": 6
+    }
+  }
+}

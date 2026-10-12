@@ -1,0 +1,12 @@
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.218158
+      mean	0.076976
+    median	0.068252
+       min	0.020597
+      rmse	0.087684
+       sse	1.476179
+       std	0.041989
+
+Plots saved to /home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_151641/evaluation/pose_graph_ape.pdf

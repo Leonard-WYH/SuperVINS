@@ -1,0 +1,235 @@
+diff --git a/camera_models/CMakeLists.txt b/camera_models/CMakeLists.txt
+index 98d93f3..3fcb712 100644
+--- a/camera_models/CMakeLists.txt
++++ b/camera_models/CMakeLists.txt
+@@ -18,7 +18,7 @@ find_package(OpenCV REQUIRED)
+ 
+ # set(EIGEN_INCLUDE_DIR "/usr/local/include/eigen3")
+ # find_package(Ceres REQUIRED)
+-find_package(Ceres REQUIRED PATHS "/home/lhk/Thirdparty/Ceres")
++find_package(Ceres 2.1 REQUIRED)
+ include_directories(${CERES_INCLUDE_DIRS})
+ 
+ 
+diff --git a/supervins_estimator/CMakeLists.txt b/supervins_estimator/CMakeLists.txt
+index ccc3edd..8404e01 100644
+--- a/supervins_estimator/CMakeLists.txt
++++ b/supervins_estimator/CMakeLists.txt
+@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8.3)
+ project(supervins)
+ 
+ set(CMAKE_BUILD_TYPE "Release")
+-set(CMAKE_CXX_FLAGS "-std=c++14")
+-set(CMAKE_CXX_STANDARD 14)
++set(CMAKE_CXX_FLAGS "-std=c++17")
++set(CMAKE_CXX_STANDARD 17)
+ #-DEIGEN_USE_MKL_ALL")
+ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
+ 
+@@ -18,12 +18,9 @@ find_package(catkin REQUIRED COMPONENTS
+     image_transport)
+ 
+ find_package(OpenCV REQUIRED)
+-find_package(Ceres REQUIRED PATHS "/home/lhk/Thirdparty/Ceres")
+-set(ONNXRUNTIME_ROOTDIR "/opt/onnxruntime")
+-include_directories("${ONNXRUNTIME_ROOTDIR}/include")
+-link_directories("${ONNXRUNTIME_ROOTDIR}/lib")
++find_package(Ceres 2.1 REQUIRED)
++include(${PROJECT_SOURCE_DIR}/../cmake/OnnxRuntime.cmake)
+ 
+-include_directories(${PROJECT_SOURCE_DIR}/featureTracker/ort_include/)
+ include_directories(${PROJECT_SOURCE_DIR}/src/estimator/)
+ include_directories(${catkin_INCLUDE_DIRS} ${CERES_INCLUDE_DIRS})
+ 
+@@ -56,7 +53,7 @@ add_library(supervins_lib
+     src/featureTracker/feature_tracker_dpl.cpp
+     src/featureTracker/extractor_matcher_dpl.cpp
+     src/featureTracker/transform_dpl.cpp)
+-target_link_libraries(supervins_lib ${catkin_LIBRARIES} ${OpenCV_LIBS} ${CERES_LIBRARIES} onnxruntime)
++target_link_libraries(supervins_lib ${catkin_LIBRARIES} ${OpenCV_LIBS} ${CERES_LIBRARIES} ${ONNXRUNTIME_LIBRARY})
+ 
+ 
+ get_filename_component(PROJECT_SOURCE_DIR_ABS "${CMAKE_SOURCE_DIR}" ABSOLUTE)
+diff --git a/supervins_estimator/src/featureTracker/extractor_matcher_dpl.h b/supervins_estimator/src/featureTracker/extractor_matcher_dpl.h
+index 1b95fd8..4937ebb 100644
+--- a/supervins_estimator/src/featureTracker/extractor_matcher_dpl.h
++++ b/supervins_estimator/src/featureTracker/extractor_matcher_dpl.h
+@@ -1,5 +1,5 @@
+ // #include <onnxruntime_cxx_api.h>
+-#include "../featureTracker/ort_include/onnxruntime_cxx_api.h"
++#include <onnxruntime_cxx_api.h>
+ #include <opencv2/opencv.hpp>
+ #include <thread>
+ #include <string>
+@@ -72,4 +72,4 @@ class Matcher_DPL
+     std::vector<std::pair<int,int>> match_featurepoints(std::vector<cv::Point2f> kpts0, std::vector<cv::Point2f> kpts1, float *desc0, float *desc1);
+ 
+     int extractor_type = 0;
+-};
+\ No newline at end of file
++};
+diff --git a/supervins_loop_fusion/CMakeLists.txt b/supervins_loop_fusion/CMakeLists.txt
+index 5848857..d5f6b34 100644
+--- a/supervins_loop_fusion/CMakeLists.txt
++++ b/supervins_loop_fusion/CMakeLists.txt
+@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
+ project(supervins_loop_fusion)
+ 
+ set(CMAKE_BUILD_TYPE "Release")
+-set(CMAKE_CXX_FLAGS "-std=c++14")
++set(CMAKE_CXX_FLAGS "-std=c++17")
+ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
+ 
+ find_package(catkin REQUIRED COMPONENTS
+@@ -13,20 +13,15 @@ find_package(catkin REQUIRED COMPONENTS
+     cv_bridge
+     roslib
+     )
+-find_package(Ceres REQUIRED)
+-find_package(Ceres REQUIRED PATHS "/home/lhk/Thirdparty/Ceres")
++find_package(Ceres 2.1 REQUIRED)
+ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
+ find_package(Eigen3)
+ 
+-set(CMAKE_CXX_STANDARD 14)
++set(CMAKE_CXX_STANDARD 17)
+ option(onnxruntime_USE_CUDA "Build with CUDA support" OFF)
+ option(onnxruntime_USE_TENSORRT "Build with TensorRT support" OFF)
+ option(LIBPNG_ROOTDIR "libpng root dir")
+-option(ONNXRUNTIME_ROOTDIR "onnxruntime root dir")
+-
+-set(ONNXRUNTIME_ROOTDIR "/opt/onnxruntime")
+-include_directories("${ONNXRUNTIME_ROOTDIR}/include")
+-link_directories("${ONNXRUNTIME_ROOTDIR}/lib")
++include(${PROJECT_SOURCE_DIR}/../cmake/OnnxRuntime.cmake)
+ 
+ find_package(JPEG)
+ find_package(PNG)
+@@ -78,6 +73,6 @@ add_executable(supervins_loop_fusion_node
+     )
+ get_filename_component(PROJECT_SOURCE_DIR_ABS "${CMAKE_SOURCE_DIR}" ABSOLUTE)
+ target_compile_definitions(supervins_loop_fusion_node PRIVATE PROJECT_SOURCE_DIR="${PROJECT_SOURCE_DIR_ABS}")
+-target_link_libraries(supervins_loop_fusion_node ${catkin_LIBRARIES}  ${OpenCV_LIBS} ${CERES_LIBRARIES}  ${OpenCV_LIBRARIES} onnxruntime) 
++target_link_libraries(supervins_loop_fusion_node ${catkin_LIBRARIES} ${OpenCV_LIBS} ${CERES_LIBRARIES} ${ONNXRUNTIME_LIBRARY})
+ 
+ 
+diff --git a/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h b/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h
+index 3f73e13..706a7d8 100644
+--- a/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h
++++ b/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h
+@@ -316,8 +316,8 @@ namespace DBoW3
+      */
+     int getDescritorType() const;
+     // io to-from a stream
+-    void toStream(std::ostream &str, bool compressed = true) const throw(std::exception);
+-    void fromStream(std::istream &str) throw(std::exception);
++    void toStream(std::ostream &str, bool compressed = true) const;
++    void fromStream(std::istream &str);
+ 
+   protected:
+     ///  reference to descriptor
+@@ -449,7 +449,7 @@ namespace DBoW3
+ 
+     /**Loads from ORBSLAM txt files
+      */
+-    void load_fromtxt(const std::string &filename) throw(std::runtime_error);
++    void load_fromtxt(const std::string &filename);
+ 
+   protected:
+     /// Branching factor
+diff --git a/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp b/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp
+index 8a27084..fdb3ee7 100644
+--- a/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp
++++ b/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp
+@@ -1130,7 +1130,7 @@ namespace DBoW3
+     f << "}";
+   }
+ 
+-  void Vocabulary::toStream(std::ostream &out_str, bool compressed) const throw(std::exception)
++  void Vocabulary::toStream(std::ostream &out_str, bool compressed) const
+   {
+ 
+     uint64_t sig = 88877711233; // magic number describing the file
+@@ -1215,7 +1215,7 @@ namespace DBoW3
+     }
+   }
+ 
+-  void Vocabulary::load_fromtxt(const std::string &filename) throw(std::runtime_error)
++  void Vocabulary::load_fromtxt(const std::string &filename)
+   {
+ 
+     std::ifstream ifile(filename);
+@@ -1297,7 +1297,7 @@ namespace DBoW3
+       }
+     }
+   }
+-  void Vocabulary::fromStream(std::istream &str) throw(std::exception)
++  void Vocabulary::fromStream(std::istream &str)
+   {
+ 
+     m_words.clear();
+diff --git a/supervins_loop_fusion/src/pose_graph.cpp b/supervins_loop_fusion/src/pose_graph.cpp
+index 9c5f80e..fd3da4f 100644
+--- a/supervins_loop_fusion/src/pose_graph.cpp
++++ b/supervins_loop_fusion/src/pose_graph.cpp
+@@ -589,6 +589,7 @@ void PoseGraph::optimize4DoF()
+             m_keyframelist.unlock();
+ 
+             ceres::Solve(options, &problem, &summary);
++            ROS_INFO_STREAM("[PoseGraph 4DoF] keyframe=" << cur_index << " " << summary.BriefReport());
+             // std::cout << summary.BriefReport() << "\n";
+ 
+             // printf("pose optimization time: %f \n", tmp_t.toc());
+@@ -760,6 +761,7 @@ void PoseGraph::optimize6DoF()
+             m_keyframelist.unlock();
+ 
+             ceres::Solve(options, &problem, &summary);
++            ROS_INFO_STREAM("[PoseGraph 6DoF] keyframe=" << cur_index << " " << summary.BriefReport());
+             // std::cout << summary.BriefReport() << "\n";
+ 
+             // printf("pose optimization time: %f \n", tmp_t.toc());
+diff --git a/supervins_loop_fusion/src/pose_graph_node.cpp b/supervins_loop_fusion/src/pose_graph_node.cpp
+index cd3f1c0..6c0ecac 100644
+--- a/supervins_loop_fusion/src/pose_graph_node.cpp
++++ b/supervins_loop_fusion/src/pose_graph_node.cpp
+@@ -666,9 +666,11 @@ int main(int argc, char **argv)
+ 
+     fsSettings["image0_topic"] >> IMAGE_TOPIC;
+     fsSettings["pose_graph_save_path"] >> POSE_GRAPH_SAVE_PATH;
+-    POSE_GRAPH_SAVE_PATH=LOOP_PROJECT_SOURCE_DIR + "/" + POSE_GRAPH_SAVE_PATH;
++    if (!POSE_GRAPH_SAVE_PATH.empty() && POSE_GRAPH_SAVE_PATH.front() != '/')
++        POSE_GRAPH_SAVE_PATH=LOOP_PROJECT_SOURCE_DIR + "/" + POSE_GRAPH_SAVE_PATH;
+     fsSettings["output_path"] >> VINS_RESULT_PATH;
+-    VINS_RESULT_PATH=LOOP_PROJECT_SOURCE_DIR + "/" + VINS_RESULT_PATH;
++    if (!VINS_RESULT_PATH.empty() && VINS_RESULT_PATH.front() != '/')
++        VINS_RESULT_PATH=LOOP_PROJECT_SOURCE_DIR + "/" + VINS_RESULT_PATH;
+     fsSettings["save_image"] >> DEBUG_IMAGE;
+ 
+     LOAD_PREVIOUS_POSE_GRAPH = fsSettings["load_previous_pose_graph"];
+@@ -680,7 +682,9 @@ int main(int argc, char **argv)
+     // Setup per-frame loop-corrected pose output file (TUM format for EVO evaluation)
+     std::string output_path_str;
+     fsSettings["output_path"] >> output_path_str;
+-    LOOP_CORRECTED_PATH_FILE = LOOP_PROJECT_SOURCE_DIR + "/" + output_path_str + "/loop_corrected_tum.txt";
++    if (!output_path_str.empty() && output_path_str.front() != '/')
++        output_path_str = LOOP_PROJECT_SOURCE_DIR + "/" + output_path_str;
++    LOOP_CORRECTED_PATH_FILE = output_path_str + "/loop_corrected_tum.txt";
+     {
+         std::ofstream fout_lc(LOOP_CORRECTED_PATH_FILE, std::ios::out);
+         fout_lc << "# timestamp tx ty tz qx qy qz qw" << std::endl;
+diff --git a/cmake/OnnxRuntime.cmake b/cmake/OnnxRuntime.cmake
+new file mode 100644
+index 0000000..b604bf0
+--- /dev/null
++++ b/cmake/OnnxRuntime.cmake
+@@ -0,0 +1,10 @@
++set(ONNXRUNTIME_ROOTDIR "$ENV{ONNXRUNTIME_ROOTDIR}" CACHE PATH "ONNX Runtime C++ SDK root")
++if(NOT ONNXRUNTIME_ROOTDIR)
++  set(ONNXRUNTIME_ROOTDIR "/opt/onnxruntime" CACHE PATH "ONNX Runtime C++ SDK root" FORCE)
++endif()
++find_path(ONNXRUNTIME_INCLUDE_DIR onnxruntime_cxx_api.h
++  PATHS "${ONNXRUNTIME_ROOTDIR}/include" NO_DEFAULT_PATH REQUIRED)
++find_library(ONNXRUNTIME_LIBRARY onnxruntime
++  PATHS "${ONNXRUNTIME_ROOTDIR}/lib" NO_DEFAULT_PATH REQUIRED)
++include_directories(${ONNXRUNTIME_INCLUDE_DIR})
++message(STATUS "ONNX Runtime: ${ONNXRUNTIME_LIBRARY}")

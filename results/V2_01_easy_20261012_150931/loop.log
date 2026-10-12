@@ -1,0 +1,1955 @@
+config_file: /home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_150931/euroc_mono_imu.yaml
+vocabulary_file/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/Voc/superpoint1.yml.gz
+[LoopMatcher] match threshold = 0.5
+[0;93m2026-10-12 15:09:34.908401183 [W:onnxruntime:, session_state.cc:1316 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+[0;93m2026-10-12 15:09:34.908421401 [W:onnxruntime:, session_state.cc:1318 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+[LoopMatcher] LightGlue model loaded successfully: /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_estimator/weights_dpl/superpoint_lightglue_fused.onnx
+[PoseGraph] LightGlue loop matcher initialized.
+[LoopFusion] LightGlue matcher loaded: /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_estimator/weights_dpl/superpoint_lightglue_fused.onnx (threshold=0.50)
+BRIEF_PATTERN_FILE/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/../support_files/brief_pattern.yml
+cam calib path: /home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_150931/cam0_mei.yaml
+[LoopFusion] Loop-corrected pose will be saved to: /home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_150931/loop_corrected_tum.txt
+VIO input, perfrom 4 DoF (x, y, z, yaw) pose graph optimization
+no previous pose graph
+detect loop
+Searching for Image 0. 0 results:
+
+m_nentries: 0
+find_loop: 0
+ frame_index: 0
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 1. 0 results:
+
+m_nentries: 1
+find_loop: 0
+ frame_index: 1
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 2. 0 results:
+
+m_nentries: 2
+find_loop: 0
+ frame_index: 2
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 3. 0 results:
+
+m_nentries: 3
+find_loop: 0
+ frame_index: 3
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 4. 0 results:
+
+m_nentries: 4
+find_loop: 0
+ frame_index: 4
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 5. 0 results:
+
+m_nentries: 5
+find_loop: 0
+ frame_index: 5
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 6. 0 results:
+
+m_nentries: 6
+find_loop: 0
+ frame_index: 6
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 7. 0 results:
+
+m_nentries: 7
+find_loop: 0
+ frame_index: 7
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 8. 0 results:
+
+m_nentries: 8
+find_loop: 0
+ frame_index: 8
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 9. 0 results:
+
+m_nentries: 9
+find_loop: 0
+ frame_index: 9
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 10. 0 results:
+
+m_nentries: 10
+find_loop: 0
+ frame_index: 10
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 11. 0 results:
+
+m_nentries: 11
+find_loop: 0
+ frame_index: 11
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 12. 0 results:
+
+m_nentries: 12
+find_loop: 0
+ frame_index: 12
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 13. 0 results:
+
+m_nentries: 13
+find_loop: 0
+ frame_index: 13
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 14. 0 results:
+
+m_nentries: 14
+find_loop: 0
+ frame_index: 14
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 15. 0 results:
+
+m_nentries: 15
+find_loop: 0
+ frame_index: 15
+Unable to open file
+loop_index-1
+detect loop
+Searching for Image 16. 0 results:
+
+m_nentries: 16
+find_loop: 0
+ frame_index: 16
+loop_index-1
+detect loop
+Searching for Image 17. 0 results:
+
+m_nentries: 17
+find_loop: 0
+ frame_index: 17
+loop_index-1
+detect loop
+Searching for Image 18. 0 results:
+
+m_nentries: 18
+find_loop: 0
+ frame_index: 18
+loop_index-1
+detect loop
+Searching for Image 19. 0 results:
+
+m_nentries: 19
+find_loop: 0
+ frame_index: 19
+loop_index-1
+detect loop
+Searching for Image 20. 0 results:
+
+m_nentries: 20
+find_loop: 0
+ frame_index: 20
+loop_index-1
+detect loop
+Searching for Image 21. 0 results:
+
+m_nentries: 21
+find_loop: 0
+ frame_index: 21
+loop_index-1
+detect loop
+Searching for Image 22. 0 results:
+
+m_nentries: 22
+find_loop: 0
+ frame_index: 22
+loop_index-1
+detect loop
+Searching for Image 23. 0 results:
+
+m_nentries: 23
+find_loop: 0
+ frame_index: 23
+loop_index-1
+detect loop
+Searching for Image 24. 0 results:
+
+m_nentries: 24
+find_loop: 0
+ frame_index: 24
+loop_index-1
+detect loop
+Searching for Image 25. 0 results:
+
+m_nentries: 25
+find_loop: 0
+ frame_index: 25
+loop_index-1
+detect loop
+Searching for Image 26. 0 results:
+
+m_nentries: 26
+find_loop: 0
+ frame_index: 26
+loop_index-1
+detect loop
+Searching for Image 27. 0 results:
+
+m_nentries: 27
+find_loop: 0
+ frame_index: 27
+loop_index-1
+detect loop
+Searching for Image 28. 0 results:
+
+m_nentries: 28
+find_loop: 0
+ frame_index: 28
+loop_index-1
+detect loop
+Searching for Image 29. 0 results:
+
+m_nentries: 29
+find_loop: 0
+ frame_index: 29
+loop_index-1
+detect loop
+Searching for Image 30. 0 results:
+
+m_nentries: 30
+find_loop: 0
+ frame_index: 30
+loop_index-1
+detect loop
+Searching for Image 31. 0 results:
+
+m_nentries: 31
+find_loop: 0
+ frame_index: 31
+loop_index-1
+detect loop
+Searching for Image 32. 0 results:
+
+m_nentries: 32
+find_loop: 0
+ frame_index: 32
+loop_index-1
+detect loop
+Searching for Image 33. 0 results:
+
+m_nentries: 33
+find_loop: 0
+ frame_index: 33
+loop_index-1
+detect loop
+Searching for Image 34. 0 results:
+
+m_nentries: 34
+find_loop: 0
+ frame_index: 34
+loop_index-1
+detect loop
+Searching for Image 35. 0 results:
+
+m_nentries: 35
+find_loop: 0
+ frame_index: 35
+loop_index-1
+detect loop
+Searching for Image 36. 0 results:
+
+m_nentries: 36
+find_loop: 0
+ frame_index: 36
+loop_index-1
+detect loop
+Searching for Image 37. 0 results:
+
+m_nentries: 37
+find_loop: 0
+ frame_index: 37
+loop_index-1
+detect loop
+Searching for Image 38. 0 results:
+
+m_nentries: 38
+find_loop: 0
+ frame_index: 38
+loop_index-1
+detect loop
+Searching for Image 39. 0 results:
+
+m_nentries: 39
+find_loop: 0
+ frame_index: 39
+loop_index-1
+detect loop
+Searching for Image 40. 0 results:
+
+m_nentries: 40
+find_loop: 0
+ frame_index: 40
+loop_index-1
+detect loop
+Searching for Image 41. 0 results:
+
+m_nentries: 41
+find_loop: 0
+ frame_index: 41
+loop_index-1
+detect loop
+Searching for Image 42. 0 results:
+
+m_nentries: 42
+find_loop: 0
+ frame_index: 42
+loop_index-1
+detect loop
+Searching for Image 43. 0 results:
+
+m_nentries: 43
+find_loop: 0
+ frame_index: 43
+loop_index-1
+detect loop
+Searching for Image 44. 0 results:
+
+m_nentries: 44
+find_loop: 0
+ frame_index: 44
+loop_index-1
+detect loop
+Searching for Image 45. 0 results:
+
+m_nentries: 45
+find_loop: 0
+ frame_index: 45
+loop_index-1
+detect loop
+Searching for Image 46. 0 results:
+
+m_nentries: 46
+find_loop: 0
+ frame_index: 46
+loop_index-1
+detect loop
+Searching for Image 47. 0 results:
+
+m_nentries: 47
+find_loop: 0
+ frame_index: 47
+loop_index-1
+detect loop
+Searching for Image 48. 0 results:
+
+m_nentries: 48
+find_loop: 0
+ frame_index: 48
+loop_index-1
+detect loop
+Searching for Image 49. 4 results:
+<EntryId: 48, Score: 0.521164>
+<EntryId: 47, Score: 0.395974>
+<EntryId: 46, Score: 0.361548>
+<EntryId: 44, Score: 0.316812>
+m_nentries: 49
+find_loop: 1
+ frame_index: 49
+loop_index-1
+detect loop
+Searching for Image 50. 0 results:
+
+m_nentries: 50
+find_loop: 0
+ frame_index: 50
+loop_index-1
+detect loop
+Searching for Image 51. 1 result:
+<EntryId: 0, Score: 0.143203>
+m_nentries: 51
+find_loop: 0
+ frame_index: 51
+loop_index-1
+detect loop
+Searching for Image 52. 2 results:
+<EntryId: 1, Score: 0.126049>
+<EntryId: 0, Score: 0.122778>
+m_nentries: 52
+find_loop: 1
+ frame_index: 52
+loop_index0
+[LightGlue Loop] raw_matches=4, with_3D=0 (cur_sp=378, old_sp=309, vio=0)
+detect loop
+Searching for Image 53. 3 results:
+<EntryId: 0, Score: 0.147964>
+<EntryId: 2, Score: 0.147542>
+<EntryId: 1, Score: 0.137728>
+m_nentries: 53
+find_loop: 1
+ frame_index: 53
+loop_index0
+[LightGlue Loop] raw_matches=10, with_3D=0 (cur_sp=361, old_sp=309, vio=0)
+detect loop
+Searching for Image 54. 4 results:
+<EntryId: 2, Score: 0.172874>
+<EntryId: 0, Score: 0.16884>
+<EntryId: 1, Score: 0.165952>
+<EntryId: 3, Score: 0.133078>
+m_nentries: 54
+find_loop: 1
+ frame_index: 54
+loop_index0
+[LightGlue Loop] raw_matches=6, with_3D=0 (cur_sp=349, old_sp=309, vio=4)
+detect loop
+Searching for Image 55. 4 results:
+<EntryId: 1, Score: 0.186874>
+<EntryId: 2, Score: 0.170015>
+<EntryId: 0, Score: 0.167089>
+<EntryId: 3, Score: 0.153108>
+m_nentries: 55
+find_loop: 1
+ frame_index: 55
+loop_index0
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=360, old_sp=309, vio=3)
+detect loop
+Searching for Image 56. 4 results:
+<EntryId: 2, Score: 0.150772>
+<EntryId: 1, Score: 0.150599>
+<EntryId: 0, Score: 0.142697>
+<EntryId: 4, Score: 0.129498>
+m_nentries: 56
+find_loop: 1
+ frame_index: 56
+loop_index0
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=338, old_sp=309, vio=0)
+detect loop
+Searching for Image 57. 4 results:
+<EntryId: 1, Score: 0.199275>
+<EntryId: 0, Score: 0.171932>
+<EntryId: 2, Score: 0.169712>
+<EntryId: 6, Score: 0.165008>
+m_nentries: 57
+find_loop: 1
+ frame_index: 57
+loop_index0
+[LightGlue Loop] raw_matches=0, with_3D=0 (cur_sp=340, old_sp=309, vio=0)
+detect loop
+Searching for Image 58. 4 results:
+<EntryId: 7, Score: 0.215803>
+<EntryId: 6, Score: 0.17414>
+<EntryId: 3, Score: 0.169474>
+<EntryId: 4, Score: 0.164409>
+m_nentries: 58
+find_loop: 1
+ frame_index: 58
+loop_index3
+[LightGlue Loop] raw_matches=10, with_3D=0 (cur_sp=332, old_sp=276, vio=0)
+detect loop
+Searching for Image 59. 4 results:
+<EntryId: 1, Score: 0.172263>
+<EntryId: 0, Score: 0.169865>
+<EntryId: 4, Score: 0.168981>
+<EntryId: 7, Score: 0.166079>
+m_nentries: 59
+find_loop: 1
+ frame_index: 59
+loop_index0
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=329, old_sp=309, vio=5)
+detect loop
+Searching for Image 60. 4 results:
+<EntryId: 7, Score: 0.160563>
+<EntryId: 0, Score: 0.13971>
+<EntryId: 1, Score: 0.139706>
+<EntryId: 3, Score: 0.129809>
+m_nentries: 60
+find_loop: 1
+ frame_index: 60
+loop_index0
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=388, old_sp=309, vio=18)
+detect loop
+Searching for Image 61. 4 results:
+<EntryId: 10, Score: 0.125858>
+<EntryId: 8, Score: 0.124908>
+<EntryId: 0, Score: 0.124539>
+<EntryId: 7, Score: 0.123441>
+m_nentries: 61
+find_loop: 1
+ frame_index: 61
+loop_index0
+[LightGlue Loop] raw_matches=6, with_3D=0 (cur_sp=361, old_sp=309, vio=5)
+detect loop
+Searching for Image 62. 4 results:
+<EntryId: 2, Score: 0.127599>
+<EntryId: 3, Score: 0.126889>
+<EntryId: 10, Score: 0.12598>
+<EntryId: 0, Score: 0.125628>
+m_nentries: 62
+find_loop: 1
+ frame_index: 62
+loop_index0
+[LightGlue Loop] raw_matches=8, with_3D=0 (cur_sp=380, old_sp=309, vio=0)
+detect loop
+Searching for Image 63. 4 results:
+<EntryId: 0, Score: 0.145086>
+<EntryId: 7, Score: 0.144033>
+<EntryId: 4, Score: 0.138388>
+<EntryId: 8, Score: 0.127732>
+m_nentries: 63
+find_loop: 1
+ frame_index: 63
+loop_index0
+[LightGlue Loop] raw_matches=6, with_3D=0 (cur_sp=399, old_sp=309, vio=6)
+detect loop
+Searching for Image 64. 4 results:
+<EntryId: 6, Score: 0.152553>
+<EntryId: 1, Score: 0.14177>
+<EntryId: 10, Score: 0.139528>
+<EntryId: 0, Score: 0.1323>
+m_nentries: 64
+find_loop: 1
+ frame_index: 64
+loop_index0
+[LightGlue Loop] raw_matches=4, with_3D=0 (cur_sp=376, old_sp=309, vio=1)
+detect loop
+Searching for Image 65. 4 results:
+<EntryId: 0, Score: 0.135259>
+<EntryId: 1, Score: 0.122585>
+<EntryId: 10, Score: 0.116175>
+<EntryId: 3, Score: 0.114253>
+m_nentries: 65
+find_loop: 1
+ frame_index: 65
+loop_index0
+[LightGlue Loop] raw_matches=1, with_3D=0 (cur_sp=424, old_sp=309, vio=1)
+detect loop
+Searching for Image 66. 4 results:
+<EntryId: 5, Score: 0.1596>
+<EntryId: 4, Score: 0.159359>
+<EntryId: 6, Score: 0.15888>
+<EntryId: 10, Score: 0.146732>
+m_nentries: 66
+find_loop: 1
+ frame_index: 66
+loop_index4
+[LightGlue Loop] raw_matches=1, with_3D=0 (cur_sp=380, old_sp=280, vio=5)
+detect loop
+Searching for Image 67. 4 results:
+<EntryId: 5, Score: 0.171194>
+<EntryId: 4, Score: 0.160162>
+<EntryId: 14, Score: 0.158258>
+<EntryId: 6, Score: 0.152297>
+m_nentries: 67
+find_loop: 1
+ frame_index: 67
+loop_index4
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=361, old_sp=280, vio=13)
+detect loop
+Searching for Image 68. 4 results:
+<EntryId: 3, Score: 0.164623>
+<EntryId: 17, Score: 0.147813>
+<EntryId: 14, Score: 0.13471>
+<EntryId: 0, Score: 0.134554>
+m_nentries: 68
+find_loop: 1
+ frame_index: 68
+loop_index0
+[LightGlue Loop] raw_matches=10, with_3D=0 (cur_sp=390, old_sp=309, vio=11)
+detect loop
+Searching for Image 69. 4 results:
+<EntryId: 18, Score: 0.191377>
+<EntryId: 10, Score: 0.169537>
+<EntryId: 11, Score: 0.149538>
+<EntryId: 0, Score: 0.147668>
+m_nentries: 69
+find_loop: 1
+ frame_index: 69
+loop_index0
+[LightGlue Loop] raw_matches=4, with_3D=0 (cur_sp=384, old_sp=309, vio=18)
+detect loop
+Searching for Image 70. 4 results:
+<EntryId: 18, Score: 0.173459>
+<EntryId: 5, Score: 0.166198>
+<EntryId: 6, Score: 0.157491>
+<EntryId: 4, Score: 0.154575>
+m_nentries: 70
+find_loop: 1
+ frame_index: 70
+loop_index4
+[LightGlue Loop] raw_matches=11, with_3D=0 (cur_sp=310, old_sp=280, vio=9)
+detect loop
+Searching for Image 71. 4 results:
+<EntryId: 20, Score: 0.184241>
+<EntryId: 18, Score: 0.165384>
+<EntryId: 3, Score: 0.157679>
+<EntryId: 5, Score: 0.150339>
+m_nentries: 71
+find_loop: 1
+ frame_index: 71
+loop_index3
+[LightGlue Loop] raw_matches=8, with_3D=0 (cur_sp=325, old_sp=276, vio=8)
+detect loop
+Searching for Image 72. 4 results:
+<EntryId: 18, Score: 0.150968>
+<EntryId: 19, Score: 0.146405>
+<EntryId: 4, Score: 0.13873>
+<EntryId: 6, Score: 0.135646>
+m_nentries: 72
+find_loop: 1
+ frame_index: 72
+loop_index4
+[LightGlue Loop] raw_matches=7, with_3D=0 (cur_sp=293, old_sp=280, vio=0)
+detect loop
+Searching for Image 73. 4 results:
+<EntryId: 19, Score: 0.169017>
+<EntryId: 7, Score: 0.142215>
+<EntryId: 18, Score: 0.139681>
+<EntryId: 20, Score: 0.136359>
+m_nentries: 73
+find_loop: 1
+ frame_index: 73
+loop_index7
+[LightGlue Loop] raw_matches=12, with_3D=0 (cur_sp=283, old_sp=282, vio=0)
+detect loop
+Searching for Image 74. 4 results:
+<EntryId: 6, Score: 0.168603>
+<EntryId: 7, Score: 0.16675>
+<EntryId: 20, Score: 0.160824>
+<EntryId: 17, Score: 0.154618>
+m_nentries: 74
+find_loop: 1
+ frame_index: 74
+loop_index6
+[LightGlue Loop] raw_matches=1, with_3D=0 (cur_sp=396, old_sp=280, vio=3)
+detect loop
+Searching for Image 75. 4 results:
+<EntryId: 0, Score: 0.16717>
+<EntryId: 16, Score: 0.158347>
+<EntryId: 18, Score: 0.155523>
+<EntryId: 17, Score: 0.148848>
+m_nentries: 75
+find_loop: 1
+ frame_index: 75
+loop_index0
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=289, old_sp=309, vio=0)
+detect loop
+Searching for Image 76. 4 results:
+<EntryId: 7, Score: 0.161507>
+<EntryId: 18, Score: 0.148911>
+<EntryId: 8, Score: 0.143708>
+<EntryId: 0, Score: 0.138845>
+m_nentries: 76
+find_loop: 1
+ frame_index: 76
+loop_index0
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=276, old_sp=309, vio=3)
+detect loop
+Searching for Image 77. 4 results:
+<EntryId: 7, Score: 0.18202>
+<EntryId: 21, Score: 0.179043>
+<EntryId: 6, Score: 0.176159>
+<EntryId: 20, Score: 0.173058>
+m_nentries: 77
+find_loop: 1
+ frame_index: 77
+loop_index6
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=267, old_sp=280, vio=1)
+detect loop
+Searching for Image 78. 4 results:
+<EntryId: 2, Score: 0.161823>
+<EntryId: 11, Score: 0.158116>
+<EntryId: 17, Score: 0.154678>
+<EntryId: 23, Score: 0.140585>
+m_nentries: 78
+find_loop: 1
+ frame_index: 78
+loop_index2
+[LightGlue Loop] raw_matches=7, with_3D=0 (cur_sp=313, old_sp=287, vio=1)
+detect loop
+Searching for Image 79. 4 results:
+<EntryId: 0, Score: 0.177777>
+<EntryId: 12, Score: 0.163813>
+<EntryId: 1, Score: 0.159975>
+<EntryId: 6, Score: 0.152065>
+m_nentries: 79
+find_loop: 1
+ frame_index: 79
+loop_index0
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=297, old_sp=309, vio=1)
+detect loop
+Searching for Image 80. 4 results:
+<EntryId: 26, Score: 0.161925>
+<EntryId: 13, Score: 0.152555>
+<EntryId: 0, Score: 0.140979>
+<EntryId: 12, Score: 0.139266>
+m_nentries: 80
+find_loop: 1
+ frame_index: 80
+loop_index0
+[LightGlue Loop] raw_matches=4, with_3D=0 (cur_sp=263, old_sp=309, vio=1)
+detect loop
+Searching for Image 81. 4 results:
+<EntryId: 26, Score: 0.196376>
+<EntryId: 27, Score: 0.181263>
+<EntryId: 12, Score: 0.158529>
+<EntryId: 21, Score: 0.150408>
+m_nentries: 81
+find_loop: 1
+ frame_index: 81
+loop_index12
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=267, old_sp=268, vio=1)
+detect loop
+Searching for Image 82. 4 results:
+<EntryId: 31, Score: 0.178465>
+<EntryId: 26, Score: 0.156996>
+<EntryId: 27, Score: 0.152489>
+<EntryId: 23, Score: 0.1506>
+m_nentries: 82
+find_loop: 1
+ frame_index: 82
+loop_index23
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=300, old_sp=318, vio=1)
+detect loop
+Searching for Image 83. 4 results:
+<EntryId: 31, Score: 0.160952>
+<EntryId: 26, Score: 0.158349>
+<EntryId: 27, Score: 0.147794>
+<EntryId: 29, Score: 0.128609>
+m_nentries: 83
+find_loop: 1
+ frame_index: 83
+loop_index26
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=262, old_sp=286, vio=1)
+detect loop
+Searching for Image 84. 4 results:
+<EntryId: 31, Score: 0.159681>
+<EntryId: 0, Score: 0.138318>
+<EntryId: 27, Score: 0.132249>
+<EntryId: 10, Score: 0.130468>
+m_nentries: 84
+find_loop: 1
+ frame_index: 84
+loop_index0
+[LightGlue Loop] raw_matches=0, with_3D=0 (cur_sp=225, old_sp=309, vio=2)
+detect loop
+Searching for Image 85. 4 results:
+<EntryId: 27, Score: 0.177119>
+<EntryId: 26, Score: 0.135743>
+<EntryId: 17, Score: 0.132527>
+<EntryId: 9, Score: 0.127319>
+m_nentries: 85
+find_loop: 1
+ frame_index: 85
+loop_index9
+[LightGlue Loop] raw_matches=1, with_3D=0 (cur_sp=232, old_sp=260, vio=0)
+detect loop
+Searching for Image 86. 4 results:
+<EntryId: 26, Score: 0.221762>
+<EntryId: 27, Score: 0.199415>
+<EntryId: 6, Score: 0.18532>
+<EntryId: 29, Score: 0.177746>
+m_nentries: 86
+find_loop: 1
+ frame_index: 86
+loop_index6
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=254, old_sp=280, vio=0)
+detect loop
+Searching for Image 87. 4 results:
+<EntryId: 26, Score: 0.190936>
+<EntryId: 23, Score: 0.184546>
+<EntryId: 8, Score: 0.18376>
+<EntryId: 29, Score: 0.177789>
+m_nentries: 87
+find_loop: 1
+ frame_index: 87
+loop_index8
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=306, old_sp=290, vio=0)
+detect loop
+Searching for Image 88. 4 results:
+<EntryId: 20, Score: 0.179036>
+<EntryId: 3, Score: 0.164469>
+<EntryId: 27, Score: 0.162495>
+<EntryId: 18, Score: 0.161966>
+m_nentries: 88
+find_loop: 1
+ frame_index: 88
+loop_index3
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=268, old_sp=276, vio=0)
+detect loop
+Searching for Image 89. 4 results:
+<EntryId: 20, Score: 0.205415>
+<EntryId: 26, Score: 0.186196>
+<EntryId: 21, Score: 0.176761>
+<EntryId: 27, Score: 0.171408>
+m_nentries: 89
+find_loop: 1
+ frame_index: 89
+loop_index20
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=280, old_sp=314, vio=0)
+detect loop
+Searching for Image 90. 4 results:
+<EntryId: 19, Score: 0.210269>
+<EntryId: 20, Score: 0.209464>
+<EntryId: 26, Score: 0.190995>
+<EntryId: 27, Score: 0.187544>
+m_nentries: 90
+find_loop: 1
+ frame_index: 90
+loop_index19
+[LightGlue Loop] raw_matches=7, with_3D=0 (cur_sp=266, old_sp=267, vio=4)
+detect loop
+Searching for Image 91. 4 results:
+<EntryId: 19, Score: 0.199008>
+<EntryId: 8, Score: 0.175015>
+<EntryId: 20, Score: 0.169821>
+<EntryId: 26, Score: 0.165951>
+m_nentries: 91
+find_loop: 1
+ frame_index: 91
+loop_index8
+[LightGlue Loop] raw_matches=6, with_3D=0 (cur_sp=257, old_sp=290, vio=5)
+detect loop
+Searching for Image 92. 4 results:
+<EntryId: 8, Score: 0.194734>
+<EntryId: 32, Score: 0.191964>
+<EntryId: 34, Score: 0.1852>
+<EntryId: 37, Score: 0.176867>
+m_nentries: 92
+find_loop: 1
+ frame_index: 92
+loop_index8
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=283, old_sp=290, vio=0)
+detect loop
+Searching for Image 93. 4 results:
+<EntryId: 18, Score: 0.203495>
+<EntryId: 13, Score: 0.196161>
+<EntryId: 12, Score: 0.189582>
+<EntryId: 8, Score: 0.179328>
+m_nentries: 93
+find_loop: 1
+ frame_index: 93
+loop_index8
+[LightGlue Loop] raw_matches=9, with_3D=0 (cur_sp=302, old_sp=290, vio=0)
+detect loop
+Searching for Image 94. 4 results:
+<EntryId: 26, Score: 0.192477>
+<EntryId: 27, Score: 0.190449>
+<EntryId: 16, Score: 0.177521>
+<EntryId: 0, Score: 0.173056>
+m_nentries: 94
+find_loop: 1
+ frame_index: 94
+loop_index0
+[LightGlue Loop] raw_matches=11, with_3D=0 (cur_sp=327, old_sp=309, vio=0)
+detect loop
+Searching for Image 95. 4 results:
+<EntryId: 26, Score: 0.172257>
+<EntryId: 33, Score: 0.16464>
+<EntryId: 27, Score: 0.157396>
+<EntryId: 31, Score: 0.1456>
+m_nentries: 95
+find_loop: 1
+ frame_index: 95
+loop_index26
+[LightGlue Loop] raw_matches=2, with_3D=1 (cur_sp=279, old_sp=286, vio=31)
+detect loop
+Searching for Image 96. 4 results:
+<EntryId: 23, Score: 0.156133>
+<EntryId: 22, Score: 0.151488>
+<EntryId: 25, Score: 0.144465>
+<EntryId: 8, Score: 0.140086>
+m_nentries: 96
+find_loop: 1
+ frame_index: 96
+loop_index8
+[LightGlue Loop] raw_matches=2, with_3D=1 (cur_sp=265, old_sp=290, vio=80)
+detect loop
+Searching for Image 97. 4 results:
+<EntryId: 45, Score: 0.178419>
+<EntryId: 23, Score: 0.16713>
+<EntryId: 13, Score: 0.161304>
+<EntryId: 18, Score: 0.160232>
+m_nentries: 97
+find_loop: 1
+ frame_index: 97
+loop_index13
+[LightGlue Loop] raw_matches=7, with_3D=2 (cur_sp=266, old_sp=290, vio=83)
+detect loop
+Searching for Image 98. 4 results:
+<EntryId: 26, Score: 0.192376>
+<EntryId: 45, Score: 0.185017>
+<EntryId: 12, Score: 0.174022>
+<EntryId: 1, Score: 0.151518>
+m_nentries: 98
+find_loop: 1
+ frame_index: 98
+loop_index1
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=272, old_sp=306, vio=18)
+detect loop
+Searching for Image 99. 4 results:
+<EntryId: 26, Score: 0.212989>
+<EntryId: 27, Score: 0.183032>
+<EntryId: 25, Score: 0.171926>
+<EntryId: 28, Score: 0.16384>
+m_nentries: 99
+find_loop: 1
+ frame_index: 99
+loop_index25
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=435, old_sp=311, vio=6)
+detect loop
+Searching for Image 100. 4 results:
+<EntryId: 21, Score: 0.190684>
+<EntryId: 23, Score: 0.18123>
+<EntryId: 45, Score: 0.179901>
+<EntryId: 19, Score: 0.176178>
+m_nentries: 100
+find_loop: 1
+ frame_index: 100
+loop_index19
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=270, old_sp=267, vio=34)
+detect loop
+Searching for Image 101. 4 results:
+<EntryId: 45, Score: 0.200042>
+<EntryId: 10, Score: 0.170511>
+<EntryId: 13, Score: 0.169557>
+<EntryId: 2, Score: 0.169342>
+m_nentries: 101
+find_loop: 1
+ frame_index: 101
+loop_index2
+[LightGlue Loop] raw_matches=8, with_3D=0 (cur_sp=262, old_sp=287, vio=12)
+detect loop
+Searching for Image 102. 4 results:
+<EntryId: 45, Score: 0.203293>
+<EntryId: 51, Score: 0.20279>
+<EntryId: 30, Score: 0.197551>
+<EntryId: 44, Score: 0.193965>
+m_nentries: 102
+find_loop: 1
+ frame_index: 102
+loop_index30
+[LightGlue Loop] raw_matches=35, with_3D=0 (cur_sp=322, old_sp=339, vio=0)
+detect loop
+Searching for Image 103. 4 results:
+<EntryId: 51, Score: 0.227552>
+<EntryId: 45, Score: 0.22558>
+<EntryId: 43, Score: 0.220603>
+<EntryId: 52, Score: 0.212756>
+m_nentries: 103
+find_loop: 1
+ frame_index: 103
+loop_index43
+[LightGlue Loop] raw_matches=77, with_3D=0 (cur_sp=305, old_sp=319, vio=0)
+detect loop
+Searching for Image 104. 4 results:
+<EntryId: 53, Score: 0.220182>
+<EntryId: 52, Score: 0.207382>
+<EntryId: 38, Score: 0.198398>
+<EntryId: 43, Score: 0.195472>
+m_nentries: 104
+find_loop: 1
+ frame_index: 104
+loop_index38
+[LightGlue Loop] raw_matches=62, with_3D=0 (cur_sp=310, old_sp=332, vio=5)
+detect loop
+Searching for Image 105. 4 results:
+<EntryId: 30, Score: 0.207896>
+<EntryId: 54, Score: 0.192411>
+<EntryId: 31, Score: 0.188758>
+<EntryId: 50, Score: 0.187377>
+m_nentries: 105
+find_loop: 1
+ frame_index: 105
+loop_index30
+[LightGlue Loop] raw_matches=36, with_3D=0 (cur_sp=305, old_sp=339, vio=11)
+detect loop
+Searching for Image 106. 4 results:
+<EntryId: 43, Score: 0.238316>
+<EntryId: 46, Score: 0.223914>
+<EntryId: 45, Score: 0.213822>
+<EntryId: 39, Score: 0.201939>
+m_nentries: 106
+find_loop: 1
+ frame_index: 106
+loop_index39
+[LightGlue Loop] raw_matches=67, with_3D=5 (cur_sp=313, old_sp=347, vio=22)
+detect loop
+Searching for Image 107. 4 results:
+<EntryId: 45, Score: 0.222144>
+<EntryId: 44, Score: 0.199115>
+<EntryId: 43, Score: 0.194601>
+<EntryId: 47, Score: 0.19352>
+m_nentries: 107
+find_loop: 1
+ frame_index: 107
+loop_index43
+[LightGlue Loop] raw_matches=82, with_3D=2 (cur_sp=308, old_sp=319, vio=7)
+detect loop
+Searching for Image 108. 4 results:
+<EntryId: 53, Score: 0.183133>
+<EntryId: 52, Score: 0.163247>
+<EntryId: 30, Score: 0.162528>
+<EntryId: 44, Score: 0.14982>
+m_nentries: 108
+find_loop: 1
+ frame_index: 108
+loop_index30
+[LightGlue Loop] raw_matches=21, with_3D=1 (cur_sp=325, old_sp=339, vio=16)
+detect loop
+Searching for Image 109. 4 results:
+<EntryId: 53, Score: 0.20146>
+<EntryId: 52, Score: 0.178509>
+<EntryId: 38, Score: 0.177437>
+<EntryId: 43, Score: 0.172768>
+m_nentries: 109
+find_loop: 1
+ frame_index: 109
+loop_index38
+[LightGlue Loop] raw_matches=58, with_3D=5 (cur_sp=323, old_sp=332, vio=27)
+detect loop
+Searching for Image 110. 4 results:
+<EntryId: 53, Score: 0.195111>
+<EntryId: 19, Score: 0.188116>
+<EntryId: 58, Score: 0.181143>
+<EntryId: 46, Score: 0.180099>
+m_nentries: 110
+find_loop: 1
+ frame_index: 110
+loop_index19
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=324, old_sp=267, vio=16)
+detect loop
+Searching for Image 111. 4 results:
+<EntryId: 42, Score: 0.190225>
+<EntryId: 30, Score: 0.187589>
+<EntryId: 43, Score: 0.185545>
+<EntryId: 39, Score: 0.182794>
+m_nentries: 111
+find_loop: 1
+ frame_index: 111
+loop_index30
+[LightGlue Loop] raw_matches=17, with_3D=2 (cur_sp=326, old_sp=339, vio=12)
+detect loop
+Searching for Image 112. 4 results:
+<EntryId: 52, Score: 0.260554>
+<EntryId: 53, Score: 0.223248>
+<EntryId: 58, Score: 0.190397>
+<EntryId: 59, Score: 0.189509>
+m_nentries: 112
+find_loop: 1
+ frame_index: 112
+loop_index52
+[LightGlue Loop] raw_matches=0, with_3D=0 (cur_sp=344, old_sp=378, vio=3)
+detect loop
+Searching for Image 113. 4 results:
+<EntryId: 52, Score: 0.255194>
+<EntryId: 53, Score: 0.245822>
+<EntryId: 34, Score: 0.206311>
+<EntryId: 20, Score: 0.205548>
+m_nentries: 113
+find_loop: 1
+ frame_index: 113
+loop_index20
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=330, old_sp=314, vio=9)
+detect loop
+Searching for Image 114. 4 results:
+<EntryId: 45, Score: 0.20032>
+<EntryId: 31, Score: 0.198659>
+<EntryId: 39, Score: 0.183507>
+<EntryId: 40, Score: 0.183022>
+m_nentries: 114
+find_loop: 1
+ frame_index: 114
+loop_index31
+[LightGlue Loop] raw_matches=19, with_3D=2 (cur_sp=268, old_sp=325, vio=18)
+detect loop
+Searching for Image 115. 4 results:
+<EntryId: 20, Score: 0.20832>
+<EntryId: 50, Score: 0.202386>
+<EntryId: 21, Score: 0.200736>
+<EntryId: 45, Score: 0.200274>
+m_nentries: 115
+find_loop: 1
+ frame_index: 115
+loop_index20
+[LightGlue Loop] raw_matches=1, with_3D=0 (cur_sp=276, old_sp=314, vio=19)
+detect loop
+Searching for Image 116. 4 results:
+<EntryId: 45, Score: 0.202297>
+<EntryId: 53, Score: 0.192379>
+<EntryId: 55, Score: 0.180608>
+<EntryId: 30, Score: 0.174017>
+m_nentries: 116
+find_loop: 1
+ frame_index: 116
+loop_index30
+[LightGlue Loop] raw_matches=10, with_3D=0 (cur_sp=280, old_sp=339, vio=14)
+detect loop
+Searching for Image 117. 4 results:
+<EntryId: 30, Score: 0.203857>
+<EntryId: 45, Score: 0.200414>
+<EntryId: 53, Score: 0.19334>
+<EntryId: 66, Score: 0.187835>
+m_nentries: 117
+find_loop: 1
+ frame_index: 117
+loop_index30
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=303, old_sp=339, vio=12)
+detect loop
+Searching for Image 118. 4 results:
+<EntryId: 53, Score: 0.219599>
+<EntryId: 52, Score: 0.216779>
+<EntryId: 66, Score: 0.193697>
+<EntryId: 47, Score: 0.191431>
+m_nentries: 118
+find_loop: 1
+ frame_index: 118
+loop_index47
+[LightGlue Loop] raw_matches=32, with_3D=3 (cur_sp=346, old_sp=312, vio=8)
+detect loop
+Searching for Image 119. 4 results:
+<EntryId: 43, Score: 0.222374>
+<EntryId: 47, Score: 0.199416>
+<EntryId: 57, Score: 0.199222>
+<EntryId: 67, Score: 0.195592>
+m_nentries: 119
+find_loop: 1
+ frame_index: 119
+loop_index43
+[LightGlue Loop] raw_matches=43, with_3D=2 (cur_sp=348, old_sp=319, vio=4)
+detect loop
+Searching for Image 120. 4 results:
+<EntryId: 52, Score: 0.204303>
+<EntryId: 68, Score: 0.198698>
+<EntryId: 41, Score: 0.196895>
+<EntryId: 43, Score: 0.193304>
+m_nentries: 120
+find_loop: 1
+ frame_index: 120
+loop_index41
+[LightGlue Loop] raw_matches=27, with_3D=0 (cur_sp=362, old_sp=362, vio=1)
+detect loop
+Searching for Image 121. 4 results:
+<EntryId: 68, Score: 0.223212>
+<EntryId: 45, Score: 0.201261>
+<EntryId: 54, Score: 0.195047>
+<EntryId: 67, Score: 0.194324>
+m_nentries: 121
+find_loop: 1
+ frame_index: 121
+loop_index45
+[LightGlue Loop] raw_matches=30, with_3D=1 (cur_sp=376, old_sp=340, vio=1)
+detect loop
+Searching for Image 122. 4 results:
+<EntryId: 49, Score: 0.218016>
+<EntryId: 51, Score: 0.217707>
+<EntryId: 66, Score: 0.21334>
+<EntryId: 48, Score: 0.211448>
+m_nentries: 122
+find_loop: 1
+ frame_index: 122
+loop_index48
+[LightGlue Loop] raw_matches=35, with_3D=0 (cur_sp=368, old_sp=321, vio=0)
+detect loop
+Searching for Image 123. 4 results:
+<EntryId: 47, Score: 0.216653>
+<EntryId: 50, Score: 0.215487>
+<EntryId: 45, Score: 0.210747>
+<EntryId: 48, Score: 0.208604>
+m_nentries: 123
+find_loop: 1
+ frame_index: 123
+loop_index45
+[LightGlue Loop] raw_matches=30, with_3D=0 (cur_sp=349, old_sp=340, vio=1)
+detect loop
+Searching for Image 124. 4 results:
+<EntryId: 0, Score: 0.220018>
+<EntryId: 4, Score: 0.21207>
+<EntryId: 48, Score: 0.210752>
+<EntryId: 50, Score: 0.206723>
+m_nentries: 124
+find_loop: 1
+ frame_index: 124
+loop_index0
+[LightGlue Loop] raw_matches=9, with_3D=0 (cur_sp=345, old_sp=309, vio=4)
+detect loop
+Searching for Image 125. 4 results:
+<EntryId: 67, Score: 0.226817>
+<EntryId: 40, Score: 0.199397>
+<EntryId: 2, Score: 0.197972>
+<EntryId: 12, Score: 0.192518>
+m_nentries: 125
+find_loop: 1
+ frame_index: 125
+loop_index2
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=329, old_sp=287, vio=3)
+detect loop
+Searching for Image 126. 4 results:
+<EntryId: 58, Score: 0.219713>
+<EntryId: 54, Score: 0.215315>
+<EntryId: 6, Score: 0.208261>
+<EntryId: 10, Score: 0.204614>
+m_nentries: 126
+find_loop: 1
+ frame_index: 126
+loop_index6
+[LightGlue Loop] raw_matches=4, with_3D=0 (cur_sp=365, old_sp=280, vio=0)
+detect loop
+Searching for Image 127. 4 results:
+<EntryId: 60, Score: 0.20684>
+<EntryId: 45, Score: 0.205464>
+<EntryId: 18, Score: 0.198428>
+<EntryId: 12, Score: 0.194834>
+m_nentries: 127
+find_loop: 1
+ frame_index: 127
+loop_index12
+[LightGlue Loop] raw_matches=22, with_3D=0 (cur_sp=359, old_sp=268, vio=0)
+detect loop
+Searching for Image 128. 4 results:
+<EntryId: 58, Score: 0.229395>
+<EntryId: 7, Score: 0.216903>
+<EntryId: 2, Score: 0.209379>
+<EntryId: 20, Score: 0.208936>
+m_nentries: 128
+find_loop: 1
+ frame_index: 128
+loop_index2
+[LightGlue Loop] raw_matches=11, with_3D=0 (cur_sp=353, old_sp=287, vio=0)
+detect loop
+Searching for Image 129. 4 results:
+<EntryId: 49, Score: 0.21443>
+<EntryId: 33, Score: 0.207555>
+<EntryId: 53, Score: 0.207518>
+<EntryId: 27, Score: 0.204898>
+m_nentries: 129
+find_loop: 1
+ frame_index: 129
+loop_index27
+[LightGlue Loop] raw_matches=7, with_3D=0 (cur_sp=342, old_sp=289, vio=1)
+detect loop
+Searching for Image 130. 4 results:
+<EntryId: 58, Score: 0.224266>
+<EntryId: 33, Score: 0.200397>
+<EntryId: 37, Score: 0.193257>
+<EntryId: 1, Score: 0.192636>
+m_nentries: 130
+find_loop: 1
+ frame_index: 130
+loop_index1
+[LightGlue Loop] raw_matches=18, with_3D=0 (cur_sp=356, old_sp=306, vio=1)
+detect loop
+Searching for Image 131. 4 results:
+<EntryId: 18, Score: 0.207577>
+<EntryId: 58, Score: 0.202851>
+<EntryId: 59, Score: 0.189375>
+<EntryId: 65, Score: 0.187356>
+m_nentries: 131
+find_loop: 1
+ frame_index: 131
+loop_index18
+[LightGlue Loop] raw_matches=13, with_3D=0 (cur_sp=339, old_sp=255, vio=1)
+detect loop
+Searching for Image 132. 4 results:
+<EntryId: 4, Score: 0.212908>
+<EntryId: 50, Score: 0.210524>
+<EntryId: 67, Score: 0.205264>
+<EntryId: 58, Score: 0.189041>
+m_nentries: 132
+find_loop: 1
+ frame_index: 132
+loop_index4
+[LightGlue Loop] raw_matches=14, with_3D=1 (cur_sp=316, old_sp=280, vio=3)
+detect loop
+Searching for Image 133. 4 results:
+<EntryId: 58, Score: 0.229119>
+<EntryId: 22, Score: 0.207417>
+<EntryId: 6, Score: 0.204265>
+<EntryId: 62, Score: 0.200546>
+m_nentries: 133
+find_loop: 1
+ frame_index: 133
+loop_index6
+[LightGlue Loop] raw_matches=13, with_3D=0 (cur_sp=308, old_sp=280, vio=1)
+detect loop
+Searching for Image 134. 4 results:
+<EntryId: 55, Score: 0.221232>
+<EntryId: 20, Score: 0.204437>
+<EntryId: 22, Score: 0.20422>
+<EntryId: 21, Score: 0.195374>
+m_nentries: 134
+find_loop: 1
+ frame_index: 134
+loop_index20
+[LightGlue Loop] raw_matches=22, with_3D=4 (cur_sp=361, old_sp=314, vio=67)
+detect loop
+Searching for Image 135. 4 results:
+<EntryId: 48, Score: 0.221808>
+<EntryId: 20, Score: 0.215235>
+<EntryId: 49, Score: 0.212496>
+<EntryId: 23, Score: 0.209072>
+m_nentries: 135
+find_loop: 1
+ frame_index: 135
+loop_index20
+[LightGlue Loop] raw_matches=14, with_3D=4 (cur_sp=376, old_sp=314, vio=66)
+detect loop
+Searching for Image 136. 4 results:
+<EntryId: 53, Score: 0.219837>
+<EntryId: 46, Score: 0.215752>
+<EntryId: 19, Score: 0.204033>
+<EntryId: 58, Score: 0.200773>
+m_nentries: 136
+find_loop: 1
+ frame_index: 136
+loop_index19
+[LightGlue Loop] raw_matches=18, with_3D=3 (cur_sp=367, old_sp=267, vio=23)
+detect loop
+Searching for Image 137. 4 results:
+<EntryId: 4, Score: 0.236611>
+<EntryId: 39, Score: 0.21887>
+<EntryId: 7, Score: 0.216817>
+<EntryId: 37, Score: 0.215195>
+m_nentries: 137
+find_loop: 1
+ frame_index: 137
+loop_index4
+[LightGlue Loop] raw_matches=9, with_3D=5 (cur_sp=390, old_sp=280, vio=27)
+detect loop
+Searching for Image 138. 4 results:
+<EntryId: 49, Score: 0.205596>
+<EntryId: 55, Score: 0.204734>
+<EntryId: 46, Score: 0.200415>
+<EntryId: 50, Score: 0.193989>
+m_nentries: 138
+find_loop: 1
+ frame_index: 138
+loop_index46
+[LightGlue Loop] raw_matches=9, with_3D=1 (cur_sp=450, old_sp=320, vio=8)
+detect loop
+Searching for Image 139. 4 results:
+<EntryId: 60, Score: 0.218746>
+<EntryId: 65, Score: 0.215974>
+<EntryId: 63, Score: 0.215333>
+<EntryId: 62, Score: 0.205>
+m_nentries: 139
+find_loop: 1
+ frame_index: 139
+loop_index60
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=424, old_sp=388, vio=5)
+detect loop
+Searching for Image 140. 4 results:
+<EntryId: 68, Score: 0.246268>
+<EntryId: 61, Score: 0.238694>
+<EntryId: 63, Score: 0.215686>
+<EntryId: 60, Score: 0.212434>
+m_nentries: 140
+find_loop: 1
+ frame_index: 140
+loop_index60
+[LightGlue Loop] raw_matches=10, with_3D=0 (cur_sp=404, old_sp=388, vio=2)
+detect loop
+Searching for Image 141. 4 results:
+<EntryId: 50, Score: 0.215184>
+<EntryId: 55, Score: 0.21025>
+<EntryId: 62, Score: 0.206302>
+<EntryId: 38, Score: 0.203496>
+m_nentries: 141
+find_loop: 1
+ frame_index: 141
+loop_index38
+[LightGlue Loop] raw_matches=17, with_3D=0 (cur_sp=386, old_sp=332, vio=0)
+detect loop
+Searching for Image 142. 4 results:
+<EntryId: 68, Score: 0.215395>
+<EntryId: 69, Score: 0.215079>
+<EntryId: 53, Score: 0.212361>
+<EntryId: 50, Score: 0.210004>
+m_nentries: 142
+find_loop: 1
+ frame_index: 142
+loop_index50
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=382, old_sp=341, vio=1)
+detect loop
+Searching for Image 143. 4 results:
+<EntryId: 68, Score: 0.229151>
+<EntryId: 69, Score: 0.217625>
+<EntryId: 61, Score: 0.213999>
+<EntryId: 31, Score: 0.205648>
+m_nentries: 143
+find_loop: 1
+ frame_index: 143
+loop_index31
+[LightGlue Loop] raw_matches=15, with_3D=0 (cur_sp=387, old_sp=325, vio=10)
+detect loop
+Searching for Image 144. 4 results:
+<EntryId: 4, Score: 0.209704>
+<EntryId: 61, Score: 0.192775>
+<EntryId: 5, Score: 0.192106>
+<EntryId: 50, Score: 0.191922>
+m_nentries: 144
+find_loop: 1
+ frame_index: 144
+loop_index4
+[LightGlue Loop] raw_matches=20, with_3D=0 (cur_sp=366, old_sp=280, vio=9)
+detect loop
+Searching for Image 145. 4 results:
+<EntryId: 61, Score: 0.238711>
+<EntryId: 62, Score: 0.200748>
+<EntryId: 60, Score: 0.19494>
+<EntryId: 65, Score: 0.18913>
+m_nentries: 145
+find_loop: 1
+ frame_index: 145
+loop_index60
+[LightGlue Loop] raw_matches=13, with_3D=0 (cur_sp=370, old_sp=388, vio=12)
+detect loop
+Searching for Image 146. 4 results:
+<EntryId: 68, Score: 0.23095>
+<EntryId: 64, Score: 0.222556>
+<EntryId: 93, Score: 0.218406>
+<EntryId: 69, Score: 0.216218>
+m_nentries: 146
+find_loop: 1
+ frame_index: 146
+loop_index64
+[LightGlue Loop] raw_matches=21, with_3D=1 (cur_sp=365, old_sp=376, vio=50)
+detect loop
+Searching for Image 147. 4 results:
+<EntryId: 68, Score: 0.208111>
+<EntryId: 65, Score: 0.207493>
+<EntryId: 20, Score: 0.206916>
+<EntryId: 64, Score: 0.204607>
+m_nentries: 147
+find_loop: 1
+ frame_index: 147
+loop_index20
+[LightGlue Loop] raw_matches=5, with_3D=2 (cur_sp=391, old_sp=314, vio=47)
+detect loop
+Searching for Image 148. 4 results:
+<EntryId: 69, Score: 0.211084>
+<EntryId: 53, Score: 0.203118>
+<EntryId: 50, Score: 0.197489>
+<EntryId: 20, Score: 0.193081>
+m_nentries: 148
+find_loop: 1
+ frame_index: 148
+loop_index20
+[LightGlue Loop] raw_matches=3, with_3D=1 (cur_sp=384, old_sp=314, vio=80)
+detect loop
+Searching for Image 149. 4 results:
+<EntryId: 64, Score: 0.245145>
+<EntryId: 65, Score: 0.220855>
+<EntryId: 20, Score: 0.202146>
+<EntryId: 53, Score: 0.200494>
+m_nentries: 149
+find_loop: 1
+ frame_index: 149
+loop_index20
+[LightGlue Loop] raw_matches=7, with_3D=3 (cur_sp=379, old_sp=314, vio=35)
+detect loop
+Searching for Image 150. 4 results:
+<EntryId: 3, Score: 0.203749>
+<EntryId: 61, Score: 0.202339>
+<EntryId: 10, Score: 0.197856>
+<EntryId: 7, Score: 0.191107>
+m_nentries: 150
+find_loop: 1
+ frame_index: 150
+loop_index3
+[LightGlue Loop] raw_matches=52, with_3D=0 (cur_sp=356, old_sp=276, vio=0)
+detect loop
+Searching for Image 151. 4 results:
+<EntryId: 61, Score: 0.207672>
+<EntryId: 36, Score: 0.201189>
+<EntryId: 68, Score: 0.198936>
+<EntryId: 60, Score: 0.197131>
+m_nentries: 151
+find_loop: 1
+ frame_index: 151
+loop_index36
+[LightGlue Loop] raw_matches=5, with_3D=0 (cur_sp=368, old_sp=346, vio=1)
+detect loop
+Searching for Image 152. 4 results:
+<EntryId: 53, Score: 0.201013>
+<EntryId: 63, Score: 0.199498>
+<EntryId: 54, Score: 0.197592>
+<EntryId: 58, Score: 0.194331>
+m_nentries: 152
+find_loop: 1
+ frame_index: 152
+loop_index53
+[LightGlue Loop] raw_matches=11, with_3D=2 (cur_sp=357, old_sp=361, vio=54)
+detect loop
+Searching for Image 153. 4 results:
+<EntryId: 53, Score: 0.219748>
+<EntryId: 68, Score: 0.217945>
+<EntryId: 60, Score: 0.215289>
+<EntryId: 3, Score: 0.208704>
+m_nentries: 153
+find_loop: 1
+ frame_index: 153
+loop_index3
+[LightGlue Loop] raw_matches=44, with_3D=11 (cur_sp=351, old_sp=276, vio=70)
+detect loop
+Searching for Image 154. 4 results:
+<EntryId: 0, Score: 0.216498>
+<EntryId: 17, Score: 0.213662>
+<EntryId: 4, Score: 0.212982>
+<EntryId: 49, Score: 0.209689>
+m_nentries: 154
+find_loop: 1
+ frame_index: 154
+loop_index0
+[LightGlue Loop] raw_matches=43, with_3D=7 (cur_sp=316, old_sp=309, vio=12)
+detect loop
+Searching for Image 155. 4 results:
+<EntryId: 1, Score: 0.2143>
+<EntryId: 17, Score: 0.206096>
+<EntryId: 63, Score: 0.204995>
+<EntryId: 0, Score: 0.203043>
+m_nentries: 155
+find_loop: 1
+ frame_index: 155
+loop_index0
+[LightGlue Loop] raw_matches=46, with_3D=4 (cur_sp=333, old_sp=309, vio=6)
+detect loop
+Searching for Image 156. 4 results:
+<EntryId: 4, Score: 0.243935>
+<EntryId: 5, Score: 0.23235>
+<EntryId: 6, Score: 0.221714>
+<EntryId: 3, Score: 0.219394>
+m_nentries: 156
+find_loop: 1
+ frame_index: 156
+loop_index3
+[LightGlue Loop] raw_matches=60, with_3D=5 (cur_sp=293, old_sp=276, vio=15)
+detect loop
+Searching for Image 157. 4 results:
+<EntryId: 2, Score: 0.223845>
+<EntryId: 20, Score: 0.219144>
+<EntryId: 16, Score: 0.218999>
+<EntryId: 1, Score: 0.217969>
+m_nentries: 157
+find_loop: 1
+ frame_index: 157
+loop_index1
+[LightGlue Loop] raw_matches=61, with_3D=1 (cur_sp=302, old_sp=306, vio=12)
+detect loop
+Searching for Image 158. 4 results:
+<EntryId: 2, Score: 0.274006>
+<EntryId: 7, Score: 0.270032>
+<EntryId: 3, Score: 0.253849>
+<EntryId: 10, Score: 0.240826>
+m_nentries: 158
+find_loop: 1
+ frame_index: 158
+loop_index2
+[LightGlue Loop] raw_matches=60, with_3D=0 (cur_sp=286, old_sp=287, vio=0)
+detect loop
+Searching for Image 159. 4 results:
+<EntryId: 2, Score: 0.239414>
+<EntryId: 50, Score: 0.212189>
+<EntryId: 4, Score: 0.211512>
+<EntryId: 7, Score: 0.204431>
+m_nentries: 159
+find_loop: 1
+ frame_index: 159
+loop_index2
+[LightGlue Loop] raw_matches=72, with_3D=0 (cur_sp=293, old_sp=287, vio=0)
+detect loop
+Searching for Image 160. 4 results:
+<EntryId: 19, Score: 0.200889>
+<EntryId: 1, Score: 0.198864>
+<EntryId: 49, Score: 0.186433>
+<EntryId: 20, Score: 0.179914>
+m_nentries: 160
+find_loop: 1
+ frame_index: 160
+loop_index1
+[LightGlue Loop] raw_matches=44, with_3D=1 (cur_sp=272, old_sp=306, vio=3)
+detect loop
+Searching for Image 161. 4 results:
+<EntryId: 49, Score: 0.216639>
+<EntryId: 1, Score: 0.204839>
+<EntryId: 46, Score: 0.201233>
+<EntryId: 7, Score: 0.199001>
+m_nentries: 161
+find_loop: 1
+ frame_index: 161
+loop_index1
+[LightGlue Loop] raw_matches=45, with_3D=0 (cur_sp=305, old_sp=306, vio=4)
+detect loop
+Searching for Image 162. 4 results:
+<EntryId: 12, Score: 0.231599>
+<EntryId: 30, Score: 0.220164>
+<EntryId: 58, Score: 0.211046>
+<EntryId: 14, Score: 0.211034>
+m_nentries: 162
+find_loop: 1
+ frame_index: 162
+loop_index12
+[LightGlue Loop] raw_matches=50, with_3D=0 (cur_sp=326, old_sp=268, vio=2)
+detect loop
+Searching for Image 163. 4 results:
+<EntryId: 30, Score: 0.236339>
+<EntryId: 0, Score: 0.21843>
+<EntryId: 1, Score: 0.216825>
+<EntryId: 4, Score: 0.212177>
+m_nentries: 163
+find_loop: 1
+ frame_index: 163
+loop_index0
+[LightGlue Loop] raw_matches=27, with_3D=0 (cur_sp=355, old_sp=309, vio=0)
+detect loop
+Searching for Image 164. 4 results:
+<EntryId: 93, Score: 0.227022>
+<EntryId: 92, Score: 0.225858>
+<EntryId: 12, Score: 0.21669>
+<EntryId: 69, Score: 0.216196>
+m_nentries: 164
+find_loop: 1
+ frame_index: 164
+loop_index12
+[LightGlue Loop] raw_matches=44, with_3D=0 (cur_sp=366, old_sp=268, vio=4)
+detect loop
+Searching for Image 165. 4 results:
+<EntryId: 19, Score: 0.206196>
+<EntryId: 12, Score: 0.205564>
+<EntryId: 69, Score: 0.204427>
+<EntryId: 13, Score: 0.202838>
+m_nentries: 165
+find_loop: 1
+ frame_index: 165
+loop_index12
+[LightGlue Loop] raw_matches=41, with_3D=0 (cur_sp=373, old_sp=268, vio=9)
+detect loop
+Searching for Image 166. 4 results:
+<EntryId: 92, Score: 0.238864>
+<EntryId: 45, Score: 0.235685>
+<EntryId: 20, Score: 0.211876>
+<EntryId: 69, Score: 0.211159>
+m_nentries: 166
+find_loop: 1
+ frame_index: 166
+loop_index20
+[LightGlue Loop] raw_matches=37, with_3D=9 (cur_sp=336, old_sp=314, vio=28)
+detect loop
+Searching for Image 167. 4 results:
+<EntryId: 12, Score: 0.22947>
+<EntryId: 49, Score: 0.212979>
+<EntryId: 13, Score: 0.210266>
+<EntryId: 51, Score: 0.208578>
+m_nentries: 167
+find_loop: 1
+ frame_index: 167
+loop_index12
+[LightGlue Loop] raw_matches=44, with_3D=13 (cur_sp=344, old_sp=268, vio=26)
+detect loop
+Searching for Image 168. 4 results:
+<EntryId: 107, Score: 0.217859>
+<EntryId: 93, Score: 0.215073>
+<EntryId: 69, Score: 0.208598>
+<EntryId: 92, Score: 0.201408>
+m_nentries: 168
+find_loop: 1
+ frame_index: 168
+loop_index69
+[LightGlue Loop] raw_matches=8, with_3D=1 (cur_sp=316, old_sp=384, vio=2)
+detect loop
+Searching for Image 169. 4 results:
+<EntryId: 37, Score: 0.20513>
+<EntryId: 36, Score: 0.199993>
+<EntryId: 1, Score: 0.199714>
+<EntryId: 69, Score: 0.193544>
+m_nentries: 169
+find_loop: 1
+ frame_index: 169
+loop_index1
+[LightGlue Loop] raw_matches=19, with_3D=0 (cur_sp=335, old_sp=306, vio=5)
+detect loop
+Searching for Image 170. 4 results:
+<EntryId: 20, Score: 0.232156>
+<EntryId: 21, Score: 0.23165>
+<EntryId: 61, Score: 0.212805>
+<EntryId: 6, Score: 0.208626>
+m_nentries: 170
+find_loop: 1
+ frame_index: 170
+loop_index6
+[LightGlue Loop] raw_matches=22, with_3D=0 (cur_sp=303, old_sp=280, vio=9)
+detect loop
+Searching for Image 171. 4 results:
+<EntryId: 21, Score: 0.242414>
+<EntryId: 20, Score: 0.221011>
+<EntryId: 18, Score: 0.219196>
+<EntryId: 19, Score: 0.2122>
+m_nentries: 171
+find_loop: 1
+ frame_index: 171
+loop_index18
+[LightGlue Loop] raw_matches=34, with_3D=3 (cur_sp=300, old_sp=255, vio=16)
+detect loop
+Searching for Image 172. 4 results:
+<EntryId: 21, Score: 0.274521>
+<EntryId: 20, Score: 0.25101>
+<EntryId: 49, Score: 0.240933>
+<EntryId: 18, Score: 0.208234>
+m_nentries: 172
+find_loop: 1
+ frame_index: 172
+loop_index18
+[LightGlue Loop] raw_matches=28, with_3D=0 (cur_sp=323, old_sp=255, vio=0)
+detect loop
+Searching for Image 173. 4 results:
+<EntryId: 20, Score: 0.254473>
+<EntryId: 21, Score: 0.23452>
+<EntryId: 0, Score: 0.228325>
+<EntryId: 16, Score: 0.222427>
+m_nentries: 173
+find_loop: 1
+ frame_index: 173
+loop_index0
+[LightGlue Loop] raw_matches=15, with_3D=0 (cur_sp=319, old_sp=309, vio=0)
+detect loop
+Searching for Image 174. 4 results:
+<EntryId: 18, Score: 0.240584>
+<EntryId: 21, Score: 0.239951>
+<EntryId: 20, Score: 0.225683>
+<EntryId: 19, Score: 0.223226>
+m_nentries: 174
+find_loop: 1
+ frame_index: 174
+loop_index18
+[LightGlue Loop] raw_matches=32, with_3D=7 (cur_sp=266, old_sp=255, vio=25)
+detect loop
+Searching for Image 175. 4 results:
+<EntryId: 0, Score: 0.227293>
+<EntryId: 21, Score: 0.218302>
+<EntryId: 18, Score: 0.214363>
+<EntryId: 51, Score: 0.205654>
+m_nentries: 175
+find_loop: 1
+ frame_index: 175
+loop_index0
+[LightGlue Loop] raw_matches=42, with_3D=4 (cur_sp=296, old_sp=309, vio=19)
+detect loop
+Searching for Image 176. 4 results:
+<EntryId: 18, Score: 0.254598>
+<EntryId: 19, Score: 0.245177>
+<EntryId: 16, Score: 0.245>
+<EntryId: 21, Score: 0.233315>
+m_nentries: 176
+find_loop: 1
+ frame_index: 176
+loop_index16
+[LightGlue Loop] raw_matches=35, with_3D=7 (cur_sp=248, old_sp=260, vio=20)
+detect loop
+Searching for Image 177. 4 results:
+<EntryId: 13, Score: 0.274024>
+<EntryId: 17, Score: 0.260466>
+<EntryId: 15, Score: 0.257649>
+<EntryId: 16, Score: 0.237529>
+m_nentries: 177
+find_loop: 1
+ frame_index: 177
+loop_index13
+[LightGlue Loop] raw_matches=92, with_3D=3 (cur_sp=318, old_sp=290, vio=11)
+detect loop
+Searching for Image 178. 4 results:
+<EntryId: 18, Score: 0.324983>
+<EntryId: 19, Score: 0.303609>
+<EntryId: 16, Score: 0.258404>
+<EntryId: 20, Score: 0.252237>
+m_nentries: 178
+find_loop: 1
+ frame_index: 178
+loop_index16
+[LightGlue Loop] raw_matches=57, with_3D=4 (cur_sp=250, old_sp=260, vio=6)
+detect loop
+Searching for Image 179. 4 results:
+<EntryId: 18, Score: 0.271209>
+<EntryId: 16, Score: 0.262126>
+<EntryId: 17, Score: 0.254698>
+<EntryId: 19, Score: 0.249574>
+m_nentries: 179
+find_loop: 1
+ frame_index: 179
+loop_index16
+[LightGlue Loop] raw_matches=93, with_3D=0 (cur_sp=272, old_sp=260, vio=0)
+detect loop
+Searching for Image 180. 4 results:
+<EntryId: 16, Score: 0.304028>
+<EntryId: 18, Score: 0.2941>
+<EntryId: 17, Score: 0.291904>
+<EntryId: 19, Score: 0.271885>
+m_nentries: 180
+find_loop: 1
+ frame_index: 180
+loop_index16
+[LightGlue Loop] raw_matches=123, with_3D=0 (cur_sp=298, old_sp=260, vio=0)
+detect loop
+Searching for Image 181. 4 results:
+<EntryId: 18, Score: 0.302335>
+<EntryId: 17, Score: 0.298258>
+<EntryId: 16, Score: 0.280979>
+<EntryId: 19, Score: 0.250515>
+m_nentries: 181
+find_loop: 1
+ frame_index: 181
+loop_index16
+[LightGlue Loop] raw_matches=118, with_3D=0 (cur_sp=286, old_sp=260, vio=0)
+detect loop
+Searching for Image 182. 4 results:
+<EntryId: 17, Score: 0.270313>
+<EntryId: 19, Score: 0.260351>
+<EntryId: 18, Score: 0.257733>
+<EntryId: 14, Score: 0.220465>
+m_nentries: 182
+find_loop: 1
+ frame_index: 182
+loop_index14
+[LightGlue Loop] raw_matches=81, with_3D=0 (cur_sp=260, old_sp=268, vio=0)
+detect loop
+Searching for Image 183. 4 results:
+<EntryId: 19, Score: 0.291534>
+<EntryId: 17, Score: 0.233648>
+<EntryId: 20, Score: 0.231507>
+<EntryId: 18, Score: 0.225317>
+m_nentries: 183
+find_loop: 1
+ frame_index: 183
+loop_index17
+[LightGlue Loop] raw_matches=83, with_3D=0 (cur_sp=300, old_sp=260, vio=0)
+detect loop
+Searching for Image 184. 4 results:
+<EntryId: 131, Score: 0.169661>
+<EntryId: 109, Score: 0.154778>
+<EntryId: 77, Score: 0.152681>
+<EntryId: 74, Score: 0.148215>
+m_nentries: 184
+find_loop: 1
+ frame_index: 184
+loop_index74
+[LightGlue Loop] raw_matches=0, with_3D=0 (cur_sp=370, old_sp=396, vio=0)
+detect loop
+Searching for Image 185. 4 results:
+<EntryId: 121, Score: 0.135943>
+<EntryId: 19, Score: 0.134259>
+<EntryId: 76, Score: 0.130789>
+<EntryId: 55, Score: 0.127501>
+m_nentries: 185
+find_loop: 1
+ frame_index: 185
+loop_index19
+[LightGlue Loop] raw_matches=22, with_3D=0 (cur_sp=315, old_sp=267, vio=0)
+detect loop
+Searching for Image 186. 4 results:
+<EntryId: 19, Score: 0.150543>
+<EntryId: 17, Score: 0.135353>
+<EntryId: 16, Score: 0.130169>
+<EntryId: 18, Score: 0.127976>
+m_nentries: 186
+find_loop: 1
+ frame_index: 186
+loop_index16
+[LightGlue Loop] raw_matches=4, with_3D=2 (cur_sp=136, old_sp=260, vio=4)
+detect loop
+Searching for Image 187. 4 results:
+<EntryId: 19, Score: 0.183456>
+<EntryId: 18, Score: 0.157377>
+<EntryId: 83, Score: 0.129689>
+<EntryId: 12, Score: 0.125674>
+m_nentries: 187
+find_loop: 1
+ frame_index: 187
+loop_index12
+[LightGlue Loop] raw_matches=3, with_3D=1 (cur_sp=146, old_sp=268, vio=3)
+detect loop
+Searching for Image 188. 4 results:
+<EntryId: 19, Score: 0.186323>
+<EntryId: 18, Score: 0.164154>
+<EntryId: 16, Score: 0.14535>
+<EntryId: 129, Score: 0.135647>
+m_nentries: 188
+find_loop: 1
+ frame_index: 188
+loop_index16
+[LightGlue Loop] raw_matches=2, with_3D=0 (cur_sp=145, old_sp=260, vio=2)
+detect loop
+Searching for Image 189. 4 results:
+<EntryId: 19, Score: 0.195839>
+<EntryId: 17, Score: 0.147003>
+<EntryId: 16, Score: 0.145743>
+<EntryId: 100, Score: 0.144766>
+m_nentries: 189
+find_loop: 1
+ frame_index: 189
+loop_index16
+[LightGlue Loop] raw_matches=1, with_3D=0 (cur_sp=146, old_sp=260, vio=2)
+detect loop
+Searching for Image 190. 4 results:
+<EntryId: 19, Score: 0.165517>
+<EntryId: 119, Score: 0.149984>
+<EntryId: 12, Score: 0.145955>
+<EntryId: 22, Score: 0.138331>
+m_nentries: 190
+find_loop: 1
+ frame_index: 190
+loop_index12
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=151, old_sp=268, vio=2)
+detect loop
+Searching for Image 191. 4 results:
+<EntryId: 19, Score: 0.179594>
+<EntryId: 18, Score: 0.157689>
+<EntryId: 119, Score: 0.147433>
+<EntryId: 118, Score: 0.13822>
+m_nentries: 191
+find_loop: 1
+ frame_index: 191
+loop_index18
+[LightGlue Loop] raw_matches=3, with_3D=0 (cur_sp=148, old_sp=255, vio=3)
+detect loop
+Searching for Image 192. 4 results:
+<EntryId: 19, Score: 0.182421>
+<EntryId: 18, Score: 0.174907>
+<EntryId: 12, Score: 0.167993>
+<EntryId: 3, Score: 0.161379>
+m_nentries: 192
+find_loop: 1
+ frame_index: 192
+loop_index3
+[LightGlue Loop] raw_matches=0, with_3D=0 (cur_sp=155, old_sp=276, vio=1)
+detect loop
+Searching for Image 193. 4 results:
+<EntryId: 19, Score: 0.175802>
+<EntryId: 12, Score: 0.171011>
+<EntryId: 18, Score: 0.157555>
+<EntryId: 88, Score: 0.134239>
+m_nentries: 193
+find_loop: 1
+ frame_index: 193
+loop_index12
+terminate called without an active exception

@@ -1,0 +1,3708 @@
+[
+  {
+    "wall_s": 3.341646983999908,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.0,
+        "rss_mib": 455.5546875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 491.89453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 6.88671875
+      }
+    },
+    "gpu": "7, 2647, 58.94",
+    "gpu_processes": "49235, 306\n49236, 284"
+  },
+  {
+    "wall_s": 4.4844533629998296,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 455.5546875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 491.89453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 84.8,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "7, 2646, 58.27",
+    "gpu_processes": "49235, 306\n49236, 284"
+  },
+  {
+    "wall_s": 5.60953181800005,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 455.5546875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 491.89453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "8, 2646, 58.66",
+    "gpu_processes": "49235, 306\n49236, 284"
+  },
+  {
+    "wall_s": 6.775434453999878,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 9.4,
+        "rss_mib": 653.87890625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 492.15625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "8, 2659, 57.98",
+    "gpu_processes": "49235, 424\n49236, 284"
+  },
+  {
+    "wall_s": 7.8584182199997485,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 85.9,
+        "rss_mib": 1052.60546875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 492.671875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "63, 2890, 91.50",
+    "gpu_processes": "49235, 632\n49236, 284"
+  },
+  {
+    "wall_s": 9.025092192999637,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 37.7,
+        "rss_mib": 1053.63671875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 2.6,
+        "rss_mib": 492.671875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 2992, 90.98",
+    "gpu_processes": "49235, 642\n49236, 284"
+  },
+  {
+    "wall_s": 10.185102473999905,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 37.1,
+        "rss_mib": 1055.44140625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 498.859375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3183, 84.61",
+    "gpu_processes": "49235, 662\n49236, 284"
+  },
+  {
+    "wall_s": 11.336853361000067,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 36.5,
+        "rss_mib": 1056.7265625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 1.7,
+        "rss_mib": 512.78125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3169, 83.93",
+    "gpu_processes": "49235, 682\n49236, 284"
+  },
+  {
+    "wall_s": 12.519492304999858,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 40.6,
+        "rss_mib": 1057.2421875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 1.7,
+        "rss_mib": 527.21875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3212, 84.33",
+    "gpu_processes": "49235, 732\n49236, 284"
+  },
+  {
+    "wall_s": 13.694411650999882,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 67.3,
+        "rss_mib": 1066.46484375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 2.6,
+        "rss_mib": 531.859375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3296, 85.98",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 14.821137466999971,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 57.7,
+        "rss_mib": 1066.46484375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 4.4,
+        "rss_mib": 500.4453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3260, 85.78",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 15.96531105699978,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 61.2,
+        "rss_mib": 1066.4765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 3.5,
+        "rss_mib": 502.24609375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3258, 85.73",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 17.10496966999972,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 57.1,
+        "rss_mib": 1066.4765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 2.6,
+        "rss_mib": 503.7890625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3260, 85.99",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 18.235818973999812,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.3,
+        "rss_mib": 1066.4765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 2.7,
+        "rss_mib": 504.8203125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3242, 85.74",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 19.38446921800005,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.5,
+        "rss_mib": 1066.4765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 3.5,
+        "rss_mib": 505.8515625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3239, 85.89",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 20.505698120000034,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.1,
+        "rss_mib": 1066.4765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 3.6,
+        "rss_mib": 507.39453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3240, 84.76",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 21.65834884800006,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 49.4,
+        "rss_mib": 1066.7265625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 2.6,
+        "rss_mib": 509.19140625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3240, 84.70",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 22.816938947999915,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.5,
+        "rss_mib": 1066.7265625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 4.3,
+        "rss_mib": 510.21875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3240, 84.60",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 23.97887458299965,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 45.6,
+        "rss_mib": 1066.7265625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.0,
+        "rss_mib": 513.28515625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3242, 83.85",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 25.099891016999663,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.8,
+        "rss_mib": 1066.7265625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.1,
+        "rss_mib": 514.57421875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3243, 86.04",
+    "gpu_processes": "49235, 792\n49236, 284"
+  },
+  {
+    "wall_s": 26.30042963400001,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 45.0,
+        "rss_mib": 1068.015625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 4.2,
+        "rss_mib": 515.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3284, 86.44",
+    "gpu_processes": "49235, 822\n49236, 284"
+  },
+  {
+    "wall_s": 27.43559740899991,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 47.6,
+        "rss_mib": 1069.3046875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 1.8,
+        "rss_mib": 517.64453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "31, 3343, 87.60",
+    "gpu_processes": "49235, 892\n49236, 284"
+  },
+  {
+    "wall_s": 28.594338995999806,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 44.9,
+        "rss_mib": 1070.3359375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 4.3,
+        "rss_mib": 519.44921875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3354, 86.28",
+    "gpu_processes": "49235, 892\n49236, 284"
+  },
+  {
+    "wall_s": 29.720412259999648,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.0,
+        "rss_mib": 1070.3359375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 3.6,
+        "rss_mib": 520.9921875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3352, 85.69",
+    "gpu_processes": "49235, 892\n49236, 284"
+  },
+  {
+    "wall_s": 30.84710080700006,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.8,
+        "rss_mib": 1070.3359375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 5.3,
+        "rss_mib": 522.79296875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3350, 87.75",
+    "gpu_processes": "49235, 892\n49236, 284"
+  },
+  {
+    "wall_s": 32.002082126999994,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 49.3,
+        "rss_mib": 1070.3359375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 4.3,
+        "rss_mib": 524.3359375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3344, 87.95",
+    "gpu_processes": "49235, 892\n49236, 284"
+  },
+  {
+    "wall_s": 33.146425246000035,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.0,
+        "rss_mib": 1071.109375
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 5.2,
+        "rss_mib": 526.91015625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3407, 89.54",
+    "gpu_processes": "49235, 942\n49236, 284"
+  },
+  {
+    "wall_s": 34.32648365899968,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 59.3,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 4.2,
+        "rss_mib": 528.71484375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3522, 90.99",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 35.431770314000005,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.6,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 3.6,
+        "rss_mib": 530.76953125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3522, 89.46",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 36.597762672000044,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.2,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.0,
+        "rss_mib": 532.83203125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3520, 88.91",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 37.754530280999916,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.2,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.8,
+        "rss_mib": 534.63671875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3520, 89.82",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 38.880169684000066,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 58.6,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.2,
+        "rss_mib": 536.95703125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3511, 88.67",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 40.018451727999945,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.3,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 5.3,
+        "rss_mib": 538.76171875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3515, 87.23",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 41.19588581299968,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.5,
+        "rss_mib": 1073.4296875
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.8,
+        "rss_mib": 542.9375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3533, 87.71",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 42.33054184000002,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.1,
+        "rss_mib": 1074.203125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 3.5,
+        "rss_mib": 544.484375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3527, 88.93",
+    "gpu_processes": "49235, 1042\n49236, 284"
+  },
+  {
+    "wall_s": 43.46489242400003,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 56.4,
+        "rss_mib": 1074.203125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 10.6,
+        "rss_mib": 740.17578125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3564, 87.46",
+    "gpu_processes": "49235, 1042\n49236, 330"
+  },
+  {
+    "wall_s": 44.645097736000025,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.0,
+        "rss_mib": 1074.203125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 24.6,
+        "rss_mib": 890.3671875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3611, 89.28",
+    "gpu_processes": "49235, 1042\n49236, 368"
+  },
+  {
+    "wall_s": 45.823414150999724,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 52.6,
+        "rss_mib": 1074.203125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 5.9,
+        "rss_mib": 892.9375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.8,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3579, 88.77",
+    "gpu_processes": "49235, 1042\n49236, 368"
+  },
+  {
+    "wall_s": 46.98141185999975,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 56.1,
+        "rss_mib": 1074.203125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.8,
+        "rss_mib": 894.9921875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3599, 89.04",
+    "gpu_processes": "49235, 1062\n49236, 368"
+  },
+  {
+    "wall_s": 48.12469218399974,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 54.2,
+        "rss_mib": 1076.06640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 12.2,
+        "rss_mib": 898.8515625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3667, 90.88",
+    "gpu_processes": "49235, 1122\n49236, 378"
+  },
+  {
+    "wall_s": 49.286339224999665,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 59.4,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.6,
+        "rss_mib": 901.16796875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3718, 93.25",
+    "gpu_processes": "49235, 1162\n49236, 388"
+  },
+  {
+    "wall_s": 50.47833830399986,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 52.9,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.4,
+        "rss_mib": 903.46875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3729, 91.26",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 51.64101070800007,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 55.9,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.7,
+        "rss_mib": 906.046875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3727, 91.74",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 52.76633993099995,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 49.8,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.0,
+        "rss_mib": 908.359375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3728, 89.32",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 53.88353391700002,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.0,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.2,
+        "rss_mib": 911.18359375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3729, 88.10",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 55.00249311399966,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 42.9,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.1,
+        "rss_mib": 912.47265625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3735, 85.36",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 56.16632886799971,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.7,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.7,
+        "rss_mib": 914.01953125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3733, 84.62",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 57.32025752899972,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 46.8,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.8,
+        "rss_mib": 915.5625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3734, 87.32",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 58.466763764999996,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.8,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.9,
+        "rss_mib": 917.609375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3735, 85.30",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 59.606043700999635,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 59.7,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.0,
+        "rss_mib": 919.15625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3727, 84.58",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 60.73424414500005,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.5,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.1,
+        "rss_mib": 920.1875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "32, 3730, 83.54",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 61.902348876999895,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.5,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.7,
+        "rss_mib": 921.7890625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3727, 85.03",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 63.09434468599966,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 47.0,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.6,
+        "rss_mib": 923.8515625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3726, 85.52",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 64.25413582099964,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.0,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 5.2,
+        "rss_mib": 924.8828125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3723, 86.02",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 65.39749989899974,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.1,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.9,
+        "rss_mib": 926.171875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3724, 87.23",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 66.50816675599981,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 46.8,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.2,
+        "rss_mib": 928.234375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3721, 85.47",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 67.66190280299998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.1,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.9,
+        "rss_mib": 930.55078125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3720, 84.65",
+    "gpu_processes": "49235, 1162\n49236, 398"
+  },
+  {
+    "wall_s": 68.846899012,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.5,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.6,
+        "rss_mib": 932.3515625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3721, 86.33",
+    "gpu_processes": "49235, 1162\n49236, 402"
+  },
+  {
+    "wall_s": 70.00215941199986,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.9,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.9,
+        "rss_mib": 934.671875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3729, 86.74",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 71.14929040399966,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.4,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.8,
+        "rss_mib": 935.703125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3731, 87.56",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 72.28810068999974,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.1,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 12.3,
+        "rss_mib": 938.796875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3731, 86.83",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 73.47334315399985,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.8,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 58.2,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 10.1,
+        "rss_mib": 941.3671875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "27, 3730, 89.21",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 74.5516340539998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.8,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 12.1,
+        "rss_mib": 943.6796875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3726, 87.80",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 75.68512882599998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 56.5,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 13.2,
+        "rss_mib": 945.484375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3726, 89.99",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 76.89014141300004,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 47.2,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 14.1,
+        "rss_mib": 947.6015625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "24, 3721, 86.96",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 78.03434044100004,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 46.4,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 13.1,
+        "rss_mib": 949.65625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "24, 3720, 86.39",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 79.19299873199998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 46.6,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 12.9,
+        "rss_mib": 951.7109375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3721, 90.27",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 80.34146904399995,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.1,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 9.6,
+        "rss_mib": 953.515625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3721, 90.35",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 81.51033807099975,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 54.8,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 11.1,
+        "rss_mib": 955.8359375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3723, 91.22",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 82.71033933499984,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 52.5,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.5,
+        "rss_mib": 957.89453125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "41, 3723, 91.89",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 83.84827501499967,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.0,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.9,
+        "rss_mib": 959.95703125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3723, 91.60",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 84.99034018899965,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 47.3,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.8,
+        "rss_mib": 961.7578125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3722, 90.97",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 86.12096968600008,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.1,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.1,
+        "rss_mib": 963.8203125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3722, 90.64",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 87.27118217499992,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.4,
+        "rss_mib": 1077.09765625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.7,
+        "rss_mib": 965.625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3777, 89.61",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 88.43286487899968,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 58.5,
+        "rss_mib": 1077.47265625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.6,
+        "rss_mib": 967.25
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3785, 91.75",
+    "gpu_processes": "49235, 1162\n49236, 408"
+  },
+  {
+    "wall_s": 89.5754603989999,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 61.3,
+        "rss_mib": 1077.98828125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.8,
+        "rss_mib": 969.5625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3843, 94.87",
+    "gpu_processes": "49235, 1202\n49236, 408"
+  },
+  {
+    "wall_s": 90.71764305999977,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 63.1,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.9,
+        "rss_mib": 971.8828125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "32, 3921, 93.44",
+    "gpu_processes": "49235, 1282\n49236, 408"
+  },
+  {
+    "wall_s": 91.89879422099966,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 58.4,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 9.3,
+        "rss_mib": 974.19921875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3930, 93.20",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 92.99650010000005,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.7,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 10.0,
+        "rss_mib": 976.26171875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "31, 3938, 96.01",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 94.13444527399997,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 54.5,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.0,
+        "rss_mib": 978.58203125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "34, 3939, 96.98",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 95.24085965699987,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 65.1,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.1,
+        "rss_mib": 980.90234375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "34, 3898, 97.44",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 96.37229441399995,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 61.5,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 9.7,
+        "rss_mib": 983.22265625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3899, 92.18",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 97.53834499200002,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 52.6,
+        "rss_mib": 1080.05078125
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.9,
+        "rss_mib": 985.0234375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3898, 90.23",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 98.71815379400005,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.8,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 63.6,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.5,
+        "rss_mib": 987.59765625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.8,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3923, 89.61",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 99.89973777099976,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 56.7,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 10.2,
+        "rss_mib": 990.17578125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3923, 89.69",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 100.99430780900002,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 53.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 10.0,
+        "rss_mib": 992.74609375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3901, 86.93",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 102.14145849799979,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 49.7,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 11.3,
+        "rss_mib": 994.29296875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3904, 85.36",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 103.27715087399974,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 52.8,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 15.0,
+        "rss_mib": 995.83984375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3883, 87.25",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 104.38259978999986,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.6,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 17.2,
+        "rss_mib": 997.8984375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "30, 3900, 89.91",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 105.54235756199978,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 55.2,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 13.8,
+        "rss_mib": 999.953125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3902, 88.95",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 106.64765542899977,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 52.5,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 18.1,
+        "rss_mib": 1002.01171875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3905, 89.47",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 107.80880849599998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 55.1,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 14.6,
+        "rss_mib": 1003.5546875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3905, 87.77",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 108.94040410099979,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 48.6,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 8.0,
+        "rss_mib": 1005.609375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3904, 87.36",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 110.09694420899996,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 54.5,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.8,
+        "rss_mib": 1007.15234375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "25, 3904, 85.18",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 111.27370103899966,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 51.8,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 5.9,
+        "rss_mib": 1008.6953125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3905, 83.06",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 112.43448463200002,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.8,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.8,
+        "rss_mib": 1010.5
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "26, 3882, 82.80",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 113.627620665,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 50.3,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 7.5,
+        "rss_mib": 1012.296875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "21, 3882, 82.99",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 114.7903406219998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 58.5,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 10.3,
+        "rss_mib": 1014.1015625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "33, 3883, 84.15",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 115.92907639399982,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 44.8,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 19.3,
+        "rss_mib": 1015.90234375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "29, 3883, 81.38",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 117.069998467,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 39.4,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 19.3,
+        "rss_mib": 1017.70703125
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "22, 3882, 78.97",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 118.21034240499966,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 43.0,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 13.2,
+        "rss_mib": 1020.796875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "24, 3882, 80.85",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 119.3503402299998,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 40.4,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 11.4,
+        "rss_mib": 1024.40625
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "28, 3900, 80.17",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 120.52106133699999,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 41.0,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 11.1,
+        "rss_mib": 1027.91796875
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.71875
+      }
+    },
+    "gpu": "21, 3902, 80.26",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 121.68495378999978,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 6.0,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 6.9,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      },
+      "rosbag": {
+        "pid": 49465,
+        "cpu_pct": 1.7,
+        "rss_mib": 0.0
+      }
+    },
+    "gpu": "6, 3904, 58.70",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 122.782349737,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "16, 3902, 59.82",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 123.94234753,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "7, 3883, 57.71",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 125.08424828499983,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.0,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "7, 3899, 58.54",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 126.22235198399994,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 1.8,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "8, 3913, 56.55",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 127.324182587,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.0,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "14, 3914, 58.25",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 128.432963363,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "6, 3930, 57.50",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 129.62030953799967,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.8,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.8,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "12, 3935, 59.23",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 130.76082085000007,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "7, 3934, 56.95",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 131.8770333739999,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "6, 3897, 56.98",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 133.01211078799997,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.9,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "6, 3882, 57.33",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 134.1382337089999,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "6, 3882, 56.39",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 135.26506678099986,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "5, 3863, 55.99",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 136.4063678319999,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.9,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "6, 3864, 56.53",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  },
+  {
+    "wall_s": 137.52933142499978,
+    "nodes": {
+      "roscore": {
+        "pid": 49179,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.546875
+      },
+      "vio": {
+        "pid": 49235,
+        "cpu_pct": 0.9,
+        "rss_mib": 1080.56640625
+      },
+      "loop": {
+        "pid": 49236,
+        "cpu_pct": 0.0,
+        "rss_mib": 1031.84375
+      },
+      "rviz": {
+        "pid": 49237,
+        "cpu_pct": 0.0,
+        "rss_mib": 43.625
+      }
+    },
+    "gpu": "8, 3865, 54.01",
+    "gpu_processes": "49235, 1282\n49236, 420"
+  }
+]

@@ -1,0 +1,259 @@
+[ 20%] Built target camera_models
+[ 41%] Built target Calibrations
+Consolidate compiler generated dependencies of target supervins_loop_fusion_node
+[ 42%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/pose_graph_node.cpp.o
+[ 44%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/pose_graph.cpp.o
+[ 45%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/Database.cpp.o
+[ 47%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/DescManip.cpp.o
+[ 48%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/FeatureVector.cpp.o
+[ 50%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/QueryResults.cpp.o
+[ 51%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/ScoringObject.cpp.o
+Consolidate compiler generated dependencies of target supervins_lib
+[ 80%] Built target supervins_lib
+Consolidate compiler generated dependencies of target supervins_node
+[ 81%] Building CXX object SuperVINS/supervins_estimator/CMakeFiles/supervins_node.dir/src/supervins_main.cpp.o
+[ 82%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/Vocabulary.cpp.o
+[ 84%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DUtils/Random.cpp.o
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.cpp:17:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.h: In static member function ‘static uint32_t DBoW3::DescManip::distance_8uc1(const cv::Mat&, const cv::Mat&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.h:85:30: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   85 |          for(size_t i = 0; i < n; ++i, ++pa, ++pb)
+      |                            ~~^~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.cpp: At global scope:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.cpp:90:25: warning: ‘uint32_t DBoW3::distance_8uc1(const cv::Mat&, const cv::Mat&)’ declared ‘static’ but never defined [-Wunused-function]
+   90 | static  inline uint32_t distance_8uc1(const cv::Mat &a, const cv::Mat &b);
+      |                         ^~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp:2:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.h: In static member function ‘static uint32_t DBoW3::DescManip::distance_8uc1(const cv::Mat&, const cv::Mat&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DescManip.h:85:30: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   85 |          for(size_t i = 0; i < n; ++i, ++pa, ++pb)
+      |                            ~~^~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp:5:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h: In constructor ‘DBoW3::ScopedTimerEvents::ScopedTimerEvents(std::string, bool, DBoW3::ScopedTimerEvents::SCALE)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h:54:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   54 |         if(start) add("start");sc=_sc;_name=name;
+      |         ^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h:54:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   54 |         if(start) add("start");sc=_sc;_name=name;
+      |                                ^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h: In member function ‘void DBoW3::ScopedTimerEvents::addspaces(std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h:66:27: warning: comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   66 |             while(s.size()<m) s.push_back(' ');
+      |                   ~~~~~~~~^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h: In destructor ‘DBoW3::ScopedTimerEvents::~ScopedTimerEvents()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/timers.h:82:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   82 |         for(int i=1;i<vtimes.size();i++){
+      |                     ~^~~~~~~~~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp: In member function ‘virtual void DBoW3::Vocabulary::transform(const cv::Mat&, DBoW3::WordId&, DBoW3::WordValue&) const’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp:849:22: warning: variable ‘bestidx’ set but not used [-Wunused-but-set-variable]
+  849 |         int idx = 0, bestidx = 0;
+      |                      ^~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp:872:22: warning: variable ‘bestidx’ set but not used [-Wunused-but-set-variable]
+  872 |         int idx = 0, bestidx = 0;
+      |                      ^~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp: In member function ‘void DBoW3::Vocabulary::fromStream(std::istream&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp:1327:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint32_t’ {aka ‘unsigned int’} [-Wsign-compare]
+ 1327 |       for (int i = 0; i < nChunks; i++)
+      |                       ~~^~~~~~~~~
+[ 85%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DUtils/Timestamp.cpp.o
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DBoW3.h:70,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.h:23,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/ScoringObject.cpp:11:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h:50:14: warning: ‘DBoW3::MIN_COMMON_WORDS’ defined but not used [-Wunused-variable]
+   50 |   static int MIN_COMMON_WORDS = 5;
+      |              ^~~~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/DBoW3.h:70,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.h:23,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Vocabulary.cpp:1:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h: At global scope:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/DBoW3/src/Database.h:50:14: warning: ‘DBoW3::MIN_COMMON_WORDS’ defined but not used [-Wunused-variable]
+   50 |   static int MIN_COMMON_WORDS = 5;
+      |              ^~~~~~~~~~~~~~~~
+[ 87%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DVision/BRIEF.cpp.o
+[ 88%] Building CXX object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/VocabularyBinary.cpp.o
+[ 90%] Building C object SuperVINS/supervins_loop_fusion/CMakeFiles/supervins_loop_fusion_node.dir/src/ThirdParty/DBoW3/src/quicklz.c.o
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:19,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/DescManip.h: In static member function ‘static uint32_t DBoW3::DescManip::distance_8uc1(const cv::Mat&, const cv::Mat&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/DescManip.h:85:30: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   85 |          for(size_t i = 0; i < n; ++i, ++pa, ++pb)
+      |                            ~~^~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:24,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h: In constructor ‘DBoW3::ScopedTimerEvents::ScopedTimerEvents(std::string, bool, DBoW3::ScopedTimerEvents::SCALE)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:54:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   54 |         if(start) add("start");sc=_sc;_name=name;
+      |         ^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:54:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   54 |         if(start) add("start");sc=_sc;_name=name;
+      |                                ^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h: In member function ‘void DBoW3::ScopedTimerEvents::addspaces(std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:66:27: warning: comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   66 |             while(s.size()<m) s.push_back(' ');
+      |                   ~~~~~~~~^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h: In destructor ‘DBoW3::ScopedTimerEvents::~ScopedTimerEvents()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:82:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   82 |         for(int i=1;i<vtimes.size();i++){
+      |                     ~^~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/VocabularyBinary.cpp:1:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/VocabularyBinary.hpp: In constructor ‘VINSLoop::Vocabulary::Vocabulary()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/VocabularyBinary.hpp:31:11: warning: ‘VINSLoop::Vocabulary::nodes’ will be initialized after [-Wreorder]
+   31 |     Node* nodes;
+      |           ^~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/VocabularyBinary.hpp:29:13: warning:   ‘int32_t VINSLoop::Vocabulary::nWords’ [-Wreorder]
+   29 |     int32_t nWords;
+      |             ^~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/ThirdParty/VocabularyBinary.cpp:5:1: warning:   when initialized here [-Wreorder]
+    5 | VINSLoop::Vocabulary::Vocabulary()
+      | ^~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:19,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/DescManip.h: In static member function ‘static uint32_t DBoW3::DescManip::distance_8uc1(const cv::Mat&, const cv::Mat&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/DescManip.h:85:30: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   85 |          for(size_t i = 0; i < n; ++i, ++pa, ++pb)
+      |                            ~~^~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:24,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h: In constructor ‘DBoW3::ScopedTimerEvents::ScopedTimerEvents(std::string, bool, DBoW3::ScopedTimerEvents::SCALE)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:54:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   54 |         if(start) add("start");sc=_sc;_name=name;
+      |         ^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:54:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   54 |         if(start) add("start");sc=_sc;_name=name;
+      |                                ^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h: In member function ‘void DBoW3::ScopedTimerEvents::addspaces(std::vector<std::__cxx11::basic_string<char> >&)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:66:27: warning: comparison of integer expressions of different signedness: ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   66 |             while(s.size()<m) s.push_back(' ');
+      |                   ~~~~~~~~^~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h: In destructor ‘DBoW3::ScopedTimerEvents::~ScopedTimerEvents()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/timers.h:82:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   82 |         for(int i=1;i<vtimes.size();i++){
+      |                     ~^~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h: At global scope:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:162:46: warning: ‘LocalParameterization’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [-Wdeprecated-declarations]
+  162 |  static ceres::LocalParameterization *Create()
+      |                                              ^
+In file included from /usr/local/include/ceres/autodiff_local_parameterization.h:39,
+                 from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/usr/local/include/ceres/local_parameterization.h:121:18: note: declared here
+  121 |     CERES_EXPORT LocalParameterization {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h: In static member function ‘static ceres::LocalParameterization* AngleLocalParameterization::Create()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:164:22: warning: ‘template<class Functor, int kGlobalSize, int kLocalSize> class ceres::AutoDiffLocalParameterization’ is deprecated: Use AutoDiffManifold instead. [-Wdeprecated-declarations]
+  164 |   return (new ceres::AutoDiffLocalParameterization<AngleLocalParameterization,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/usr/local/include/ceres/autodiff_local_parameterization.h:114:5: note: declared here
+  114 |     AutoDiffLocalParameterization : public LocalParameterization {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h: At global scope:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:162:46: warning: ‘LocalParameterization’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [-Wdeprecated-declarations]
+  162 |  static ceres::LocalParameterization *Create()
+      |                                              ^
+In file included from /usr/local/include/ceres/autodiff_local_parameterization.h:39,
+                 from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/local_parameterization.h:121:18: note: declared here
+  121 |     CERES_EXPORT LocalParameterization {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h: In static member function ‘static ceres::LocalParameterization* AngleLocalParameterization::Create()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:164:22: warning: ‘template<class Functor, int kGlobalSize, int kLocalSize> class ceres::AutoDiffLocalParameterization’ is deprecated: Use AutoDiffManifold instead. [-Wdeprecated-declarations]
+  164 |   return (new ceres::AutoDiffLocalParameterization<AngleLocalParameterization,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/autodiff_local_parameterization.h:114:5: note: declared here
+  114 |     AutoDiffLocalParameterization : public LocalParameterization {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp: In member function ‘int PoseGraph::detectLoop(KeyFrame*, int)’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:449:47: warning: comparison of integer expressions of different signedness: ‘DBoW3::EntryId’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+  449 |             if (min_index == -1 || (ret[i].Id < min_index && ret[i].Score > 0.015))
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp: In member function ‘void PoseGraph::optimize4DoF()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:512:43: warning: ‘LocalParameterization’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [-Wdeprecated-declarations]
+  512 |             ceres::LocalParameterization *angle_local_parameterization =
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/include/ceres/autodiff_local_parameterization.h:39,
+                 from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/local_parameterization.h:121:18: note: declared here
+  121 |     CERES_EXPORT LocalParameterization {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:540:90: warning: ‘void ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)’ is deprecated: LocalParameterizations are deprecated. Use the version with Manifolds instead. [-Wdeprecated-declarations]
+  540 |                 problem.AddParameterBlock(euler_array[i], 1, angle_local_parameterization);
+      |                                                                                          ^
+In file included from /usr/local/include/ceres/ceres.h:66,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/problem.h:302:8: note: declared here
+  302 |   void AddParameterBlock(double* values,
+      |        ^~~~~~~~~~~~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp: In member function ‘void PoseGraph::optimize6DoF()’:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:689:43: warning: ‘LocalParameterization’ is deprecated: LocalParameterizations will be removed from the Ceres Solver API in version 2.2.0. Use Manifolds instead. [-Wdeprecated-declarations]
+  689 |             ceres::LocalParameterization *local_parameterization = new ceres::QuaternionParameterization();
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/include/ceres/autodiff_local_parameterization.h:39,
+                 from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/local_parameterization.h:121:18: note: declared here
+  121 |     CERES_EXPORT LocalParameterization {
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:689:79: warning: ‘QuaternionParameterization’ is deprecated: Use QuaternionManifold instead. [-Wdeprecated-declarations]
+  689 |             ceres::LocalParameterization *local_parameterization = new ceres::QuaternionParameterization();
+      |                                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/include/ceres/autodiff_local_parameterization.h:39,
+                 from /usr/local/include/ceres/ceres.h:39,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/local_parameterization.h:211:18: note: declared here
+  211 |     CERES_EXPORT QuaternionParameterization : public LocalParameterization {
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:714:80: warning: ‘void ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)’ is deprecated: LocalParameterizations are deprecated. Use the version with Manifolds instead. [-Wdeprecated-declarations]
+  714 |                 problem.AddParameterBlock(q_array[i], 4, local_parameterization);
+      |                                                                                ^
+In file included from /usr/local/include/ceres/ceres.h:66,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:32,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/usr/local/include/ceres/problem.h:302:8: note: declared here
+  302 |   void AddParameterBlock(double* values,
+      |        ^~~~~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/DBoW3.h:70,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:14,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph_node.cpp:33:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/Database.h: At global scope:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/Database.h:50:14: warning: ‘DBoW3::MIN_COMMON_WORDS’ defined but not used [-Wunused-variable]
+   50 |   static int MIN_COMMON_WORDS = 5;
+      |              ^~~~~~~~~~~~~~~~
+In file included from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/DBoW3.h:70,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.h:14,
+                 from /home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/pose_graph.cpp:12:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/Database.h: At global scope:
+/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_loop_fusion/src/./ThirdParty/DBoW3/src/Database.h:50:14: warning: ‘DBoW3::MIN_COMMON_WORDS’ defined but not used [-Wunused-variable]
+   50 |   static int MIN_COMMON_WORDS = 5;
+      |              ^~~~~~~~~~~~~~~~
+[ 91%] Linking CXX executable /home/wyh/Project/Prometheus/Modules/SuperVINS/devel/lib/supervins/supervins_node
+[ 91%] Built target supervins_node
+[ 92%] Linking CXX executable /home/wyh/Project/Prometheus/Modules/SuperVINS/devel/lib/supervins_loop_fusion/supervins_loop_fusion_node
+[100%] Built target supervins_loop_fusion_node
+Base path: /home/wyh/Project/Prometheus/Modules/SuperVINS
+Source space: /home/wyh/Project/Prometheus/Modules/SuperVINS/src
+Build space: /home/wyh/Project/Prometheus/Modules/SuperVINS/build
+Devel space: /home/wyh/Project/Prometheus/Modules/SuperVINS/devel
+Install space: /home/wyh/Project/Prometheus/Modules/SuperVINS/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/wyh/Project/Prometheus/Modules/SuperVINS/build"
+####
+####
+#### Running command: "make -j8" in "/home/wyh/Project/Prometheus/Modules/SuperVINS/build"
+####

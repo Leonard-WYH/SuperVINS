@@ -1,0 +1,56 @@
+{
+  "startup_only": false,
+  "bag": "/home/wyh/Project/Prometheus/Modules/SuperVINS/data/V2_01_easy.bag",
+  "rate": 1,
+  "counts": {
+    "/cam0/image_raw": 2280,
+    "/supervins_estimator/image_track": 2280,
+    "/supervins_loop_fusion/loop_corrected_path": 1080,
+    "/supervins_estimator/odometry": 1080,
+    "/supervins_estimator/path": 1080,
+    "/supervins_loop_fusion/pose_graph_path": 203
+  },
+  "last_path_lengths": {
+    "/supervins_loop_fusion/loop_corrected_path": 1080,
+    "/supervins_estimator/path": 1080,
+    "/supervins_loop_fusion/pose_graph_path": 194
+  },
+  "rates": {
+    "/cam0/image_raw": {
+      "stamp_hz": 19.999999991630766,
+      "wall_hz": 20.000501479357503,
+      "first_stamp": 1413393212.2557604,
+      "last_stamp": 1413393326.2057605
+    },
+    "/supervins_estimator/image_track": {
+      "stamp_hz": 19.999999991630766,
+      "wall_hz": 20.07098913130568,
+      "first_stamp": 1413393212.2557604,
+      "last_stamp": 1413393326.2057605
+    },
+    "/supervins_loop_fusion/loop_corrected_path": {
+      "stamp_hz": 10.000000013257752,
+      "wall_hz": 10.006829604447134,
+      "first_stamp": 1413393218.3057606,
+      "last_stamp": 1413393326.2057605
+    },
+    "/supervins_estimator/odometry": {
+      "stamp_hz": 10.000000013257752,
+      "wall_hz": 10.006462733587224,
+      "first_stamp": 1413393218.3057606,
+      "last_stamp": 1413393326.2057605
+    },
+    "/supervins_estimator/path": {
+      "stamp_hz": 10.000000013257752,
+      "wall_hz": 10.006500409812787,
+      "first_stamp": 1413393218.3057606,
+      "last_stamp": 1413393326.2057605
+    },
+    "/supervins_loop_fusion/pose_graph_path": {
+      "stamp_hz": 1.9020715622344837,
+      "wall_hz": 1.902978504850534,
+      "first_stamp": 1413393219.2057605,
+      "last_stamp": 1413393325.4057605
+    }
+  }
+}

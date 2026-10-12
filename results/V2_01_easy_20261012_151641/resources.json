@@ -1,0 +1,6310 @@
+[
+  {
+    "wall_s": 4.242894002999947,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 456.52734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 491.70703125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 247.90234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 12.765625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "55, 4876, 100.75",
+    "gpu_processes": "68303, 1917\n70252, 306\n70253, 284"
+  },
+  {
+    "wall_s": 5.335825861000103,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 456.52734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 491.70703125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 8.3,
+        "rss_mib": 246.98046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 53.2,
+        "rss_mib": 66.78515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "56, 4862, 99.48",
+    "gpu_processes": "68303, 1917\n70252, 306\n70253, 284"
+  },
+  {
+    "wall_s": 6.526273732999925,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 456.52734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 491.70703125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 11.7,
+        "rss_mib": 247.234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 66.78515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "52, 4866, 99.06",
+    "gpu_processes": "68303, 1917\n70252, 306\n70253, 284"
+  },
+  {
+    "wall_s": 7.654960845000005,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 18.6,
+        "rss_mib": 816.35546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 491.96875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 10.6,
+        "rss_mib": 247.234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.7,
+        "rss_mib": 69.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "53, 4986, 99.52",
+    "gpu_processes": "68303, 1917\n70252, 426\n70253, 284"
+  },
+  {
+    "wall_s": 8.844848877999993,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 75.9,
+        "rss_mib": 1040.8828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 492.7421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 41.2,
+        "rss_mib": 266.0078125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 69.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "58, 5182, 129.33",
+    "gpu_processes": "68303, 1917\n70252, 632\n70253, 284"
+  },
+  {
+    "wall_s": 9.977299246000257,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 46.8,
+        "rss_mib": 1041.65625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 492.7421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 31.8,
+        "rss_mib": 267.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.7,
+        "rss_mib": 69.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "70, 5196, 120.50",
+    "gpu_processes": "68303, 1917\n70252, 642\n70253, 284"
+  },
+  {
+    "wall_s": 11.104888349000248,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 43.5,
+        "rss_mib": 1043.77734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 500.734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 32.1,
+        "rss_mib": 268.94140625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.6,
+        "rss_mib": 69.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "66, 5231, 119.75",
+    "gpu_processes": "68303, 1917\n70252, 662\n70253, 284"
+  },
+  {
+    "wall_s": 12.24612493199993,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 43.8,
+        "rss_mib": 1044.80859375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 515.4296875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 30.7,
+        "rss_mib": 270.22265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "68, 5250, 118.17",
+    "gpu_processes": "68303, 1917\n70252, 682\n70253, 284"
+  },
+  {
+    "wall_s": 13.434093112000028,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 45.4,
+        "rss_mib": 1046.09765625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 530.125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 29.4,
+        "rss_mib": 271.390625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "71, 5291, 119.07",
+    "gpu_processes": "68303, 1917\n70252, 732\n70253, 284"
+  },
+  {
+    "wall_s": 14.586207810999895,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 80.8,
+        "rss_mib": 1054.53125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 536.3125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 34.8,
+        "rss_mib": 273.79296875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "71, 5341, 121.84",
+    "gpu_processes": "68303, 1917\n70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 15.706498124000063,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 74.9,
+        "rss_mib": 1055.31640625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 493.3828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 21.4,
+        "rss_mib": 276.98046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3348, 92.11",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 16.85998003700024,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 66.5,
+        "rss_mib": 1055.31640625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.0,
+        "rss_mib": 500.64453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 27.2,
+        "rss_mib": 278.30078125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "39, 3343, 91.15",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 18.031759971000156,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 67.4,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 502.44921875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 27.8,
+        "rss_mib": 279.515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3290, 91.07",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 19.20624645399994,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 65.0,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 503.73046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 21.0,
+        "rss_mib": 280.8359375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3303, 90.81",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 20.39882971299994,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 61.2,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 505.01953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 27.3,
+        "rss_mib": 282.04296875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 3369, 93.10",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 21.56954141899996,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 61.4,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 5.1,
+        "rss_mib": 507.58984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 31.5,
+        "rss_mib": 284.5078125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 5.1,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "37, 3356, 89.16",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 22.75313605700012,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 62.5,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 4.2,
+        "rss_mib": 509.39453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 22.0,
+        "rss_mib": 285.7109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 5.9,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "38, 3354, 88.92",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 23.899937814000168,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 56.8,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 5.2,
+        "rss_mib": 510.41796875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 24.0,
+        "rss_mib": 287.80078125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "39, 3354, 89.18",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 25.10797716900015,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 59.5,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 512.47265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 26.1,
+        "rss_mib": 288.34375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.2,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3356, 89.85",
+    "gpu_processes": "70252, 792\n70253, 284"
+  },
+  {
+    "wall_s": 26.282378805000008,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 58.8,
+        "rss_mib": 1055.57421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 513.49609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 34.0,
+        "rss_mib": 289.5546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3294, 90.77",
+    "gpu_processes": "70252, 802\n70253, 284"
+  },
+  {
+    "wall_s": 27.483835310999893,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 69.1,
+        "rss_mib": 1056.86328125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 515.28515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 26.6,
+        "rss_mib": 292.7890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "31, 3476, 90.04",
+    "gpu_processes": "70252, 842\n70253, 284"
+  },
+  {
+    "wall_s": 28.674562264000087,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 71.3,
+        "rss_mib": 1058.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 4.2,
+        "rss_mib": 517.85546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 20.1,
+        "rss_mib": 295.25390625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 3514, 93.25",
+    "gpu_processes": "70252, 892\n70253, 284"
+  },
+  {
+    "wall_s": 29.827819064999858,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 66.8,
+        "rss_mib": 1058.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 519.65625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 25.2,
+        "rss_mib": 301.73046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3639, 89.78",
+    "gpu_processes": "70252, 892\n70253, 284"
+  },
+  {
+    "wall_s": 30.990277203999995,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 63.7,
+        "rss_mib": 1058.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 521.6953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 30.1,
+        "rss_mib": 303.0546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3634, 91.84",
+    "gpu_processes": "70252, 892\n70253, 284"
+  },
+  {
+    "wall_s": 32.15879591900011,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 72.5,
+        "rss_mib": 1060.21484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 523.5,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 29.0,
+        "rss_mib": 304.26171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 3586, 92.77",
+    "gpu_processes": "70252, 892\n70253, 284"
+  },
+  {
+    "wall_s": 33.3574350670001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 80.1,
+        "rss_mib": 1060.73046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 524.7890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 28.4,
+        "rss_mib": 305.58203125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 3587, 92.76",
+    "gpu_processes": "70252, 892\n70253, 284"
+  },
+  {
+    "wall_s": 34.53772684000023,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 82.5,
+        "rss_mib": 1063.82421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 526.84375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 25.5,
+        "rss_mib": 306.91015625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3715, 94.54",
+    "gpu_processes": "70252, 1022\n70253, 284"
+  },
+  {
+    "wall_s": 35.701630040000055,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 82.5,
+        "rss_mib": 1065.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.0,
+        "rss_mib": 528.64453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 25.8,
+        "rss_mib": 309.2890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3720, 95.09",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 36.87573422300011,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 82.5,
+        "rss_mib": 1065.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 5.9,
+        "rss_mib": 530.9609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 30.6,
+        "rss_mib": 310.62890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.2,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3720, 94.56",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 38.09921020699994,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 81.9,
+        "rss_mib": 1065.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 9.0,
+        "rss_mib": 535.3359375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 25.4,
+        "rss_mib": 311.9453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3720, 94.31",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 39.22381771800019,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 78.2,
+        "rss_mib": 1065.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 5.3,
+        "rss_mib": 537.3984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 32.0,
+        "rss_mib": 313.15625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3719, 94.16",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 40.379482514999836,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 70.1,
+        "rss_mib": 1065.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 537.3984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 35.4,
+        "rss_mib": 314.359375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3722, 93.67",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 41.51966938800024,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 75.5,
+        "rss_mib": 1065.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.1,
+        "rss_mib": 539.19921875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.9,
+        "rss_mib": 317.6875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3722, 93.22",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 42.730792745000144,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.6,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 76.8,
+        "rss_mib": 1066.40234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.6,
+        "rss_mib": 543.62109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 31.4,
+        "rss_mib": 318.99609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.1,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 3719, 95.08",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 43.870127505000255,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.7,
+        "rss_mib": 1066.40234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 4.4,
+        "rss_mib": 544.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 34.0,
+        "rss_mib": 320.3125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3720, 94.97",
+    "gpu_processes": "70252, 1042\n70253, 284"
+  },
+  {
+    "wall_s": 44.982186985000226,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 64.7,
+        "rss_mib": 1066.40234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 23.5,
+        "rss_mib": 838.765625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 29.9,
+        "rss_mib": 322.515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3781, 94.49",
+    "gpu_processes": "70252, 1042\n70253, 372"
+  },
+  {
+    "wall_s": 46.13104346599994,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 71.4,
+        "rss_mib": 1066.40234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 11.3,
+        "rss_mib": 902.37890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 35.7,
+        "rss_mib": 323.89453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3869, 93.85",
+    "gpu_processes": "70252, 1042\n70253, 372"
+  },
+  {
+    "wall_s": 47.283818837000126,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 72.0,
+        "rss_mib": 1066.40234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.7,
+        "rss_mib": 906.5,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 44.5,
+        "rss_mib": 325.22265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 4136, 96.31",
+    "gpu_processes": "70252, 1062\n70253, 372"
+  },
+  {
+    "wall_s": 48.42203756400022,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.9,
+        "rss_mib": 1066.9765625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.0,
+        "rss_mib": 908.8203125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.5,
+        "rss_mib": 326.421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "47, 4187, 98.95",
+    "gpu_processes": "70252, 1122\n70253, 382"
+  },
+  {
+    "wall_s": 49.583989373999884,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 79.1,
+        "rss_mib": 1070.5859375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 910.8828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 37.9,
+        "rss_mib": 327.73828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "48, 4172, 100.38",
+    "gpu_processes": "70252, 1142\n70253, 392"
+  },
+  {
+    "wall_s": 50.729612782000004,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 76.8,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.1,
+        "rss_mib": 914.46875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 35.0,
+        "rss_mib": 328.9453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "46, 4209, 99.88",
+    "gpu_processes": "70252, 1162\n70253, 412"
+  },
+  {
+    "wall_s": 51.89197692000016,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 75.9,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.0,
+        "rss_mib": 917.3046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 32.7,
+        "rss_mib": 330.265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 4210, 100.83",
+    "gpu_processes": "70252, 1162\n70253, 412"
+  },
+  {
+    "wall_s": 53.03009952799994,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 86.0,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.0,
+        "rss_mib": 920.13671875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 32.6,
+        "rss_mib": 331.47265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "51, 4220, 99.29",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 54.234959075000006,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 88.8,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.6,
+        "rss_mib": 922.19921875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 34.9,
+        "rss_mib": 332.796875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "51, 4220, 96.58",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 55.38323475900006,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 72.3,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.1,
+        "rss_mib": 924.0,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.6,
+        "rss_mib": 334.9375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 4223, 94.73",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 56.519919256999856,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 57.2,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 5.3,
+        "rss_mib": 925.8046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 35.2,
+        "rss_mib": 336.37890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 4224, 93.02",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 57.678660604000015,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 65.5,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 927.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.2,
+        "rss_mib": 337.58984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 6.0,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "46, 4221, 94.81",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 58.843915129999914,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 68.8,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 929.1484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 33.5,
+        "rss_mib": 338.91015625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 4004, 94.79",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 60.03128961399989,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 63.2,
+        "rss_mib": 1071.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.6,
+        "rss_mib": 930.5546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 31.0,
+        "rss_mib": 340.22265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 3956, 91.65",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 61.18176489999996,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 50.4,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 932.1015625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.6,
+        "rss_mib": 341.52734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 5.2,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3946, 89.96",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 62.388588728000286,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 55.3,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.6,
+        "rss_mib": 933.90625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 42.7,
+        "rss_mib": 342.8515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 5.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3910, 90.83",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 63.60210851900001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 61.1,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.5,
+        "rss_mib": 935.1953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 40.7,
+        "rss_mib": 344.15625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.9,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3911, 91.92",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 64.77982361500017,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 64.5,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 936.484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 32.1,
+        "rss_mib": 345.37109375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3912, 91.63",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 65.96794826299993,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 72.6,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 10.8,
+        "rss_mib": 940.08984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 32.4,
+        "rss_mib": 346.7890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3911, 92.32",
+    "gpu_processes": "70252, 1162\n70253, 422"
+  },
+  {
+    "wall_s": 67.12514609300024,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 59.6,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 12.0,
+        "rss_mib": 942.72265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 43.7,
+        "rss_mib": 348.0,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "39, 3920, 91.51",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 68.28153704099986,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 55.1,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 944.01171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 37.3,
+        "rss_mib": 350.1875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3921, 91.61",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 69.45165520299997,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 57.4,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.8,
+        "rss_mib": 945.55859375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 48.7,
+        "rss_mib": 351.4140625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3921, 91.45",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 70.6349255529999,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.3,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 5.1,
+        "rss_mib": 947.10546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 34.1,
+        "rss_mib": 352.953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 3920, 92.09",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 71.83733175199995,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 72.4,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.7,
+        "rss_mib": 956.75,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.599999999999994,
+        "rss_mib": 355.4609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 3922, 93.24",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 73.02264455900013,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 75.4,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.6,
+        "rss_mib": 960.0703125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 38.3,
+        "rss_mib": 356.74609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3923, 92.89",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 74.2278168580001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 81.2,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 10.8,
+        "rss_mib": 961.453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 30.7,
+        "rss_mib": 358.6875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3922, 94.61",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 75.36730600700002,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 70.3,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 9.5,
+        "rss_mib": 963.7734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 41.6,
+        "rss_mib": 359.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3925, 93.36",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 76.57014884499995,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.5,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 11.7,
+        "rss_mib": 967.125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 38.4,
+        "rss_mib": 361.34375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "46, 3925, 93.85",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 77.77661495600023,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 70.1,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 9.2,
+        "rss_mib": 967.125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 38.3,
+        "rss_mib": 362.58203125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "48, 3925, 91.66",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 78.95859056000018,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 59.7,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 10.1,
+        "rss_mib": 967.125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 37.8,
+        "rss_mib": 364.2578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 3924, 91.03",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 80.11746035299984,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 69.5,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 11.3,
+        "rss_mib": 967.8984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 39.2,
+        "rss_mib": 365.55078125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3925, 94.16",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 81.23787767700014,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 81.2,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.9,
+        "rss_mib": 970.17578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 36.6,
+        "rss_mib": 367.77734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3925, 95.70",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 82.42798063500004,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.8,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 14.3,
+        "rss_mib": 976.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 46.099999999999994,
+        "rss_mib": 368.53125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3924, 95.65",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 83.57516161500007,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.3,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 9.6,
+        "rss_mib": 976.6171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 45.4,
+        "rss_mib": 369.828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3925, 96.28",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 84.72186937900005,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.5,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 977.38671875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 43.9,
+        "rss_mib": 371.05859375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3925, 96.49",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 85.9411272110001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 79.6,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.7,
+        "rss_mib": 979.96484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 35.9,
+        "rss_mib": 372.3515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "49, 3923, 95.18",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 87.13240391599993,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 76.6,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.3,
+        "rss_mib": 981.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 38.7,
+        "rss_mib": 374.53515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "51, 3923, 95.53",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 88.29724224700021,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 68.6,
+        "rss_mib": 1071.875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.9,
+        "rss_mib": 987.6953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 40.7,
+        "rss_mib": 375.8359375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 3923, 95.68",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 89.44787383199991,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 82.2,
+        "rss_mib": 1072.70703125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.6,
+        "rss_mib": 987.6953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 38.9,
+        "rss_mib": 377.390625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.2,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3923, 96.32",
+    "gpu_processes": "70252, 1162\n70253, 432"
+  },
+  {
+    "wall_s": 90.6884812620001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 83.8,
+        "rss_mib": 1072.96484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.6,
+        "rss_mib": 987.953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 51.8,
+        "rss_mib": 378.890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 3983, 98.85",
+    "gpu_processes": "70252, 1242\n70253, 432"
+  },
+  {
+    "wall_s": 91.85561287300015,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 92.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.8,
+        "rss_mib": 990.53125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 44.1,
+        "rss_mib": 380.15234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 4054, 99.39",
+    "gpu_processes": "70252, 1282\n70253, 442"
+  },
+  {
+    "wall_s": 93.03566874800026,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 81.3,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.5,
+        "rss_mib": 992.3359375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 42.6,
+        "rss_mib": 381.46484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 4056, 99.18",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 94.19864694800026,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 85.3,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.5,
+        "rss_mib": 995.171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 48.6,
+        "rss_mib": 382.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 4055, 98.41",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 95.36382592900009,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 88.2,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 9.3,
+        "rss_mib": 997.23046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 41.6,
+        "rss_mib": 384.0859375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "45, 4056, 98.03",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 96.59420517399985,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 82.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.6,
+        "rss_mib": 999.54296875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 39.8,
+        "rss_mib": 385.3984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 5.0,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "51, 4056, 97.54",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 97.78164360000028,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 77.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.5,
+        "rss_mib": 1001.60546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 43.4,
+        "rss_mib": 387.60546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 5.8,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "48, 4055, 96.02",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 98.91577837800014,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 80.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.9,
+        "rss_mib": 1003.92578125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 42.1,
+        "rss_mib": 388.82421875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 4055, 95.04",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 100.0858904480001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 74.6,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.6,
+        "rss_mib": 1010.11328125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 50.6,
+        "rss_mib": 390.41015625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 4056, 94.56",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 101.2944784199999,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 71.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 10.9,
+        "rss_mib": 1015.01171875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 44.5,
+        "rss_mib": 391.7265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.2,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 4056, 93.10",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 102.45271297,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 65.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.5,
+        "rss_mib": 1016.81640625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 42.7,
+        "rss_mib": 393.546875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 4055, 91.89",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 103.63808752900013,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 64.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.6,
+        "rss_mib": 1017.58984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 47.7,
+        "rss_mib": 394.3125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4056, 93.68",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 104.8078479830001,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 73.6,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.7,
+        "rss_mib": 1020.94140625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 42.7,
+        "rss_mib": 395.6328125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 4056, 96.17",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 106.04719770400015,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 77.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.3,
+        "rss_mib": 1021.97265625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 43.2,
+        "rss_mib": 397.30859375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "44, 4055, 95.57",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 107.16279760899988,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 79.3,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.9,
+        "rss_mib": 1024.03515625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 45.6,
+        "rss_mib": 398.58984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "48, 4055, 95.45",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 108.38794968699995,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 79.1,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.3,
+        "rss_mib": 1027.12890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 47.5,
+        "rss_mib": 400.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "43, 4056, 94.89",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 109.55994543099996,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 69.3,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.6,
+        "rss_mib": 1027.12890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 48.2,
+        "rss_mib": 400.05078125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4055, 93.32",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 110.72394671400025,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 66.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.7,
+        "rss_mib": 1029.96484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 51.1,
+        "rss_mib": 400.58984375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "42, 4055, 92.73",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 111.90898348400015,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 66.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.6,
+        "rss_mib": 1029.96484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 48.1,
+        "rss_mib": 400.59765625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4056, 92.02",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 113.06985693000024,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 63.3,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.7,
+        "rss_mib": 1029.96484375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 47.9,
+        "rss_mib": 401.64453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4056, 91.22",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 114.21928932699984,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 53.5,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 7.9,
+        "rss_mib": 1032.87890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 51.7,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "40, 4117, 91.90",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 115.39936516800026,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 62.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 8.5,
+        "rss_mib": 1032.87890625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 50.8,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.4,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "38, 4120, 90.09",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 116.527236421,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 55.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 10.5,
+        "rss_mib": 1038.89453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 48.8,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.5,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4122, 90.05",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 117.72784292999995,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 44.6,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 10.7,
+        "rss_mib": 1038.89453125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 43.6,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 4.1,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4143, 87.96",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 118.94497310799989,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 49.6,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 15.7,
+        "rss_mib": 1043.27734375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 40.5,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "41, 4127, 88.05",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 120.11965342400026,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 1.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 42.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 12.0,
+        "rss_mib": 1047.9140625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 43.9,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 2.6,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "39, 4125, 88.62",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 121.31182778199991,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 95.48828125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 42.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 12.5,
+        "rss_mib": 1051.00390625,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 42.2,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460,
+          70502
+        ],
+        "cpu_pct": 3.3,
+        "rss_mib": 70.09375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "37, 4121, 88.32",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 122.51763217500002,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 6.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 6.7,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 25.5,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rosbag": {
+        "pid": 70460,
+        "pids": [
+          70460
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 0.0,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "21, 4055, 69.00",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 123.71873069000003,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 31.6,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "22, 4056, 63.46",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 124.89195245600013,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 40.1,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "25, 4056, 61.37",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 126.05177699900014,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 22.4,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "20, 4055, 60.80",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 127.25815259299998,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 26.5,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "20, 4055, 61.08",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 128.43389529000024,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 37.4,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "21, 4056, 62.14",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 129.58392654299996,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 39.1,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "20, 4055, 61.46",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 130.73594586399986,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 39.9,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "23, 4055, 61.46",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 131.87841153499994,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 25.4,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "21, 4056, 61.91",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 133.04336260699984,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.9,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 23.2,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "22, 4056, 61.54",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 134.22454591999985,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 22.4,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "21, 4055, 61.09",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 135.46705075299997,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 29.8,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "25, 4056, 61.15",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 136.65172238700006,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.8,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 28.6,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "27, 4056, 61.90",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  },
+  {
+    "wall_s": 137.814146101,
+    "nodes": {
+      "roscore": {
+        "pid": 70177,
+        "pids": [
+          70177,
+          70204,
+          70233
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 96.046875,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "vio": {
+        "pid": 70252,
+        "pids": [
+          70252
+        ],
+        "cpu_pct": 1.7,
+        "rss_mib": 1074.76953125,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "loop": {
+        "pid": 70253,
+        "pids": [
+          70253
+        ],
+        "cpu_pct": 0.0,
+        "rss_mib": 1054.609375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      },
+      "rviz": {
+        "pid": 70254,
+        "pids": [
+          70254,
+          70327
+        ],
+        "cpu_pct": 27.799999999999997,
+        "rss_mib": 400.65234375,
+        "scope": "process and descendants; RSS sum may double-count shared pages"
+      }
+    },
+    "gpu": "21, 4055, 61.00",
+    "gpu_processes": "70252, 1282\n70253, 444"
+  }
+]

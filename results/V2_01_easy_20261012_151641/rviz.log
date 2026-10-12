@@ -1,0 +1,27 @@
+QFileSystemWatcher::removePaths: list is empty
+QFileSystemWatcher::removePaths: list is empty
+... logging to /home/wyh/Project/Prometheus/Modules/SuperVINS/logs/ros/log/df3b36ca-c60c-11f1-a869-b5429d14635a/roslaunch-wyh-70254.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_estimator/launch/supervins_rviz.launch
+[1mstarted roslaunch server http://127.0.0.1:42327/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+  /
+    rvizvisualisation (rviz/rviz)
+
+[1mROS_MASTER_URI=http://127.0.0.1:11321[0m
+]2;/home/wyh/Project/Prometheus/Modules/SuperVINS/src/SuperVINS/supervins_estimator/launch/supervins_rviz.launch http://127.0.0.1:11321
+[1mprocess[rvizvisualisation-1]: started with pid [70327][0m
+[rvizvisualisation-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

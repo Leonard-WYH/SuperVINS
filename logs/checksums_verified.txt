@@ -1,0 +1,5 @@
+deps/onnxruntime-1.23.2/lib/libonnxruntime.so.1.23.2: 成功
+deps/onnxruntime-1.23.2/lib/libonnxruntime_providers_cuda.so: 成功
+src/SuperVINS/supervins_estimator/weights_dpl/superpoint.onnx: 成功
+src/SuperVINS/supervins_estimator/weights_dpl/superpoint_lightglue_fused.onnx: 成功
+src/SuperVINS/supervins_loop_fusion/src/ThirdParty/Voc/superpoint1.yml.gz: 成功

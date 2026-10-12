@@ -1,0 +1,100 @@
+{
+  "vio.csv": {
+    "poses": 1077,
+    "first_stamp": 1413393218.605761,
+    "last_stamp": 1413393326.20576,
+    "finite": true,
+    "max_quaternion_norm_error": 8.334213472682706e-07,
+    "position_min": [
+      -3.257988,
+      -2.857653,
+      -0.411819
+    ],
+    "position_max": [
+      2.422975,
+      2.234712,
+      0.66722
+    ]
+  },
+  "loop_corrected_tum.txt": {
+    "poses": 1077,
+    "first_stamp": 1413393218.605761,
+    "last_stamp": 1413393326.20576,
+    "finite": true,
+    "max_quaternion_norm_error": 8.015860819554632e-08,
+    "position_min": [
+      -3.1242218,
+      -2.7773065,
+      -0.439869
+    ],
+    "position_max": [
+      2.5579977,
+      2.3140994,
+      0.6391697
+    ]
+  },
+  "vio_loop.csv": {
+    "poses": 194,
+    "first_stamp": 1413393219.50576,
+    "last_stamp": 1413393326.00576,
+    "finite": true,
+    "max_quaternion_norm_error": 7.2086240179292105e-06,
+    "position_min": [
+      -3.20315,
+      -2.8739,
+      -0.44018
+    ],
+    "position_max": [
+      2.37961,
+      2.2372,
+      0.6007
+    ]
+  },
+  "accepted_lightglue_loops": [
+    "[LightGlue Loop] ACCEPTED: inliers=20, reproj_err=0.9175, yaw=-5.5, t=3.79",
+    "[LightGlue Loop] ACCEPTED: inliers=34, reproj_err=0.4516, yaw=-7.4, t=2.75",
+    "[LightGlue Loop] ACCEPTED: inliers=29, reproj_err=0.5018, yaw=-4.0, t=3.20",
+    "[LightGlue Loop] ACCEPTED: inliers=41, reproj_err=0.4992, yaw=-0.6, t=2.75",
+    "[LightGlue Loop] ACCEPTED: inliers=23, reproj_err=0.5522, yaw=3.8, t=1.37",
+    "[LightGlue Loop] ACCEPTED: inliers=21, reproj_err=0.7121, yaw=1.2, t=1.30",
+    "[LightGlue Loop] ACCEPTED: inliers=20, reproj_err=0.3285, yaw=-23.9, t=1.67",
+    "[LightGlue Loop] ACCEPTED: inliers=19, reproj_err=0.3368, yaw=-28.0, t=1.15",
+    "[LightGlue Loop] ACCEPTED: inliers=33, reproj_err=0.3961, yaw=-10.1, t=0.53"
+  ],
+  "gpu_inference_warnings": [],
+  "initializer_successes": 1,
+  "pose_graph_4dof_solves": [
+    {
+      "initial_cost": 0.01459049,
+      "final_cost": 0.005150963,
+      "termination": "CONVERGENCE"
+    },
+    {
+      "initial_cost": 0.09358443,
+      "final_cost": 0.05722633,
+      "termination": "NO_CONVERGENCE"
+    },
+    {
+      "initial_cost": 0.1098135,
+      "final_cost": 0.06331411,
+      "termination": "NO_CONVERGENCE"
+    },
+    {
+      "initial_cost": 0.1594651,
+      "final_cost": 0.1095169,
+      "termination": "NO_CONVERGENCE"
+    },
+    {
+      "initial_cost": 0.1998042,
+      "final_cost": 0.1364625,
+      "termination": "NO_CONVERGENCE"
+    },
+    {
+      "initial_cost": 0.2270108,
+      "final_cost": 0.1550092,
+      "termination": "NO_CONVERGENCE"
+    }
+  ],
+  "common_timestamps": 1077,
+  "max_loop_correction_m": 0.16055910733352985
+}

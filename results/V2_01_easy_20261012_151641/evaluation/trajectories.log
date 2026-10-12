@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+name:	vio
+infos:	1069 poses, 36.475m path length, 106.800s duration
+--------------------------------------------------------------------------------
+name:	loop_corrected_tum
+infos:	1069 poses, 36.475m path length, 106.800s duration
+--------------------------------------------------------------------------------
+name:	groundtruth_tum
+infos:	22401 poses, 36.499m path length, 112.000s duration
+--------------------------------------------------------------------------------
+Plots saved to /home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_151641/evaluation/trajectories.pdf

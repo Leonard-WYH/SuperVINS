@@ -1,0 +1,11 @@
+{
+  "url": "https://huggingface.co/datasets/GlowBond/EuRoC_MAV_Dataset/resolve/29d08aeb1c8d9dc5c30497cc538d9cc61f872bb7/vicon_room2.zip",
+  "mirror_revision": "29d08aeb1c8d9dc5c30497cc538d9cc61f872bb7",
+  "entry": "vicon_room2/V2_01_easy/V2_01_easy.zip",
+  "compressed_bytes": 882940281,
+  "uncompressed_bytes": 883081407,
+  "crc32": "53d8d375",
+  "data_offset": 2088951558,
+  "note": "Mirror entry CRC is validated; official ETH hash not available here.",
+  "sha256": "06875e7591a883c7bfadc4604c41dce4837a475fe272e0337650141bc9530262"
+}

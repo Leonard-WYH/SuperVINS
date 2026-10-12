@@ -1,0 +1,120 @@
+{
+  "vio": {
+    "stats": {
+      "rmse": 10488.543553045043,
+      "mean": 9068.426698510146,
+      "median": 9070.761341458223,
+      "std": 5270.026857414589,
+      "min": 1871.4512716385564,
+      "max": 25181.1004147361,
+      "sse": 117930233166.33957
+    },
+    "info": {
+      "title": "APE w.r.t. translation part (m)\n(with SE(3) Umeyama alignment)",
+      "ref_name": "/home/wyh/Project/Prometheus/Modules/SuperVINS/data/groundtruth_tum.txt",
+      "est_name": "/home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_150931/vio.csv",
+      "label": "APE (m)"
+    }
+  },
+  "loop": {
+    "stats": {
+      "rmse": 10488.543553045656,
+      "mean": 9068.426698513102,
+      "median": 9070.761341606782,
+      "std": 5270.026857410726,
+      "min": 1871.4512719778775,
+      "max": 25181.100414723387,
+      "sse": 117930233166.35336
+    },
+    "info": {
+      "title": "APE w.r.t. translation part (m)\n(with SE(3) Umeyama alignment)",
+      "ref_name": "/home/wyh/Project/Prometheus/Modules/SuperVINS/data/groundtruth_tum.txt",
+      "est_name": "/home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_150931/loop_corrected_tum.txt",
+      "label": "APE (m)"
+    }
+  },
+  "cpu": {
+    "vio": {
+      "mean_cpu_pct": 43.775423728813536,
+      "p95_cpu_pct": 61.33,
+      "max_rss_mib": 1080.56640625
+    },
+    "loop": {
+      "mean_cpu_pct": 6.877118644067796,
+      "p95_cpu_pct": 14.659999999999997,
+      "max_rss_mib": 1031.84375
+    },
+    "rviz": {
+      "mean_cpu_pct": 0.08898305084745763,
+      "p95_cpu_pct": 0.9,
+      "max_rss_mib": 43.625
+    },
+    "rosbag": {
+      "mean_cpu_pct": 0.8317307692307693,
+      "p95_cpu_pct": 0.0,
+      "max_rss_mib": 43.71875
+    }
+  },
+  "whole_gpu": {
+    "mean_utilization_pct": 24.779661016949152,
+    "max_memory_mib": 3939.0,
+    "mean_power_w": 82.86457627118645,
+    "note": "whole-device values include desktop and any background applications; process GPU memory is in resources.json"
+  },
+  "runtime": {
+    "startup_only": false,
+    "bag": "/home/wyh/Project/Prometheus/Modules/SuperVINS/data/V2_01_easy.bag",
+    "rate": 1,
+    "counts": {
+      "/cam0/image_raw": 2280,
+      "/supervins_estimator/image_track": 2280,
+      "/supervins_estimator/path": 1080,
+      "/supervins_estimator/odometry": 1080,
+      "/supervins_loop_fusion/loop_corrected_path": 1080,
+      "/supervins_loop_fusion/pose_graph_path": 194
+    },
+    "last_path_lengths": {
+      "/supervins_estimator/path": 1080,
+      "/supervins_loop_fusion/loop_corrected_path": 1080,
+      "/supervins_loop_fusion/pose_graph_path": 194
+    },
+    "rates": {
+      "/cam0/image_raw": {
+        "stamp_hz": 19.999999991630766,
+        "wall_hz": 20.000443597201564,
+        "first_stamp": 1413393212.2557604,
+        "last_stamp": 1413393326.2057605
+      },
+      "/supervins_estimator/image_track": {
+        "stamp_hz": 19.999999991630766,
+        "wall_hz": 20.070977694520337,
+        "first_stamp": 1413393212.2557604,
+        "last_stamp": 1413393326.2057605
+      },
+      "/supervins_estimator/path": {
+        "stamp_hz": 10.000000013257752,
+        "wall_hz": 10.006729905727816,
+        "first_stamp": 1413393218.3057606,
+        "last_stamp": 1413393326.2057605
+      },
+      "/supervins_estimator/odometry": {
+        "stamp_hz": 10.000000013257752,
+        "wall_hz": 10.007208951263493,
+        "first_stamp": 1413393218.3057606,
+        "last_stamp": 1413393326.2057605
+      },
+      "/supervins_loop_fusion/loop_corrected_path": {
+        "stamp_hz": 10.000000013257752,
+        "wall_hz": 10.006419941812531,
+        "first_stamp": 1413393218.3057606,
+        "last_stamp": 1413393326.2057605
+      },
+      "/supervins_loop_fusion/pose_graph_path": {
+        "stamp_hz": 1.819038640337271,
+        "wall_hz": 1.8198422510465722,
+        "first_stamp": 1413393219.2057605,
+        "last_stamp": 1413393325.3057606
+      }
+    }
+  }
+}

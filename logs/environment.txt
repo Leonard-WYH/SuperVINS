@@ -1,0 +1,102 @@
+2026-10-12T15:02:18+08:00
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+Linux wyh 5.15.0-139-generic #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Mon Oct 12 15:02:18 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5070 Ti     Off |   00000000:02:00.0  On |                  N/A |
+| 34%   43C    P0             95W /  300W |    3703MiB /  16303MiB |     37%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            1613      G   /usr/lib/xorg/Xorg                       96MiB |
+|    0   N/A  N/A            2075      G   /usr/lib/xorg/Xorg                      771MiB |
+|    0   N/A  N/A            2238      G   /usr/bin/gnome-shell                    177MiB |
+|    0   N/A  N/A            2847      G   ...ns-seed-version --log-level=2         32MiB |
+|    0   N/A  N/A            2887      G   ...bkit2gtk-4.0/WebKitWebProcess         46MiB |
+|    0   N/A  N/A            3559      G   ...rack-uuid=3190708988185955192        218MiB |
+|    0   N/A  N/A            4668      G   ...rack-uuid=3190708988185955192        298MiB |
+|    0   N/A  N/A           13145    C+G   ...inux/AirSim360-Linux-Shipping       1902MiB |
++-----------------------------------------------------------------------------------------+
+NVIDIA GeForce RTX 5070 Ti, 580.105.08, 16303 MiB, 12.0
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2025 NVIDIA Corporation
+Built on Wed_Jan_15_19:20:09_PST_2025
+Cuda compilation tools, release 12.8, V12.8.61
+Build cuda_12.8.r12.8/compiler.35404655_0
+cmake version 3.24.4
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+noetic
+1.17.4
+4.2.0
+3.3.7
+#define CERES_VERSION_MAJOR 2
+#define CERES_VERSION_MINOR 1
+#define CERES_VERSION_REVISION 0
+#define CUDNN_MAJOR 9
+#define CUDNN_MINOR 10
+#define CUDNN_PATCHLEVEL 2
+libcudnn9-cuda-12 9.10.2.21-1
+libeigen3-dev 3.3.7-2
+libopencv-dev 4.2.0+dfsg-5
+ros-noetic-catkin 0.8.12-1focal.20250426.001935
+commit e9689cf72cebbc7901b110ff201daedf27b0c3ff
+Author:     luohongk <luohongkun@whu.edu.cn>
+AuthorDate: Wed Jun 24 15:58:15 2026 +0800
+Commit:     luohongk <luohongkun@whu.edu.cn>
+CommitDate: Wed Jun 24 15:58:15 2026 +0800
+
+    docs: 更新 README 描述，调整 DR-VINS 与 SuperVINS 说明
+	linux-vdso.so.1 (0x00007ffcc9565000)
+	libcublasLt.so.12 => /usr/local/cuda-12.8/lib64/libcublasLt.so.12 (0x00007f7ea6630000)
+	libcublas.so.12 => /usr/local/cuda-12.8/lib64/libcublas.so.12 (0x00007f7e9f526000)
+	libcurand.so.10 => /usr/local/cuda-12.8/lib64/libcurand.so.10 (0x00007f7e96a85000)
+	libcufft.so.11 => /usr/local/cuda-12.8/lib64/libcufft.so.11 (0x00007f7e858c1000)
+	libcudart.so.12 => /usr/local/cuda-12.8/lib64/libcudart.so.12 (0x00007f7e8560d000)
+	libcudnn.so.9 => /lib/x86_64-linux-gnu/libcudnn.so.9 (0x00007f7e853a4000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f7e8539e000)
+	librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f7e85394000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f7e85371000)
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f7e8518f000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f7e85040000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f7e85023000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7e84e31000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f7ef44a4000)
+Name: onnxruntime-gpu
+Version: 1.16.3
+Summary: ONNX Runtime is a runtime accelerator for Machine Learning models
+Home-page: https://onnxruntime.ai
+Author: Microsoft Corporation
+Author-email: onnxruntime@microsoft.com
+License: MIT License
+Location: /home/wyh/.local/lib/python3.8/site-packages
+Requires: sympy, protobuf, packaging, flatbuffers, numpy, coloredlogs
+Required-by: 
+1.23.2 ['TensorrtExecutionProvider', 'CUDAExecutionProvider', 'CPUExecutionProvider']

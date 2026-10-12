@@ -1,0 +1,12 @@
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	25181.100415
+      mean	9068.426699
+    median	9070.761342
+       min	1871.451272
+      rmse	10488.543553
+       sse	117930233166.353363
+       std	5270.026857
+
+Plots saved to /home/wyh/Project/Prometheus/Modules/SuperVINS/results/V2_01_easy_20261012_150931/evaluation/loop_ape.pdf
